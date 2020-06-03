@@ -44,7 +44,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Connexion</title>
+  <title>connexion</title>
   <?php require 'PHP/entete.php'; ?>
   <link rel="stylesheet" type="text/css" href="Accueil.css">
   <img src="image/chateau.png" width="100%" height="500px"/>
@@ -60,11 +60,9 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
   <input class="boutonConnexion" type="reset" name="submit" value="Effacer" />
   <input class="boutonConnexion" type="submit" name="submit" value="Envoyer" /><br><br>
   </form>
-</body>
 
-<footer>
   <?php $bas = '-100%'; ?>
   <?php require 'PHP/bas_page.php'; ?>
-  </div>
-</footer>
+</body>
+
 </html>
