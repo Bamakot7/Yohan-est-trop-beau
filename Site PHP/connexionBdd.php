@@ -1,9 +1,9 @@
 <?php
 /* Connexion au serveur et à la base de données */
 $host="sqletud.u-pem.fr";
-$user="";
-$pwd="";
-$db="_db";
+$user="yastier";
+$pwd="uGbeeuay58";
+$db="yastier_db";
     // Connexion avec avec PDO
 try{
 $con='mysql:host='.$host.';dbname='.$db;
