@@ -27,6 +27,12 @@ a{
     heigth: 3%;
 }
 
+.connexion{
+  background:  #d8ced6;
+  width: 20%;
+  opacity: 90%;
+}
+
 .BarreNavig{
   display: flex;
   flex-direction: container;
