@@ -6,6 +6,9 @@
 	define("projet_entete", "<a href=Projet.php?lang=en>Our project");
 	define("the_entete", "<a href=The.php?lang=en>The tea shop</a>");
 	define("mecenat_entete", "<a href=Mecenat.php?lang=en>Patronage</a>");
+	define("connexion_entete", "Connexion");
+	define("inscription_entete", "Register");
+	
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 
 //contenu accueil
@@ -104,7 +107,6 @@ mecenat);
 
 //contenu preparer sa visite
 	define("prepare_contenu", <<<prepare
-
 							<div class="titre">
 							<h1 id="Haut">PREPARE YOUR VISIT</h1><br>
 							</div>

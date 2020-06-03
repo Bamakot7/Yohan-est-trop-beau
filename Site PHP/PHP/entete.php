@@ -34,7 +34,8 @@ if ($_GET["lang"] === "fr") {
 							<div><?php echo projet_entete; ?></a></div> 
 							<div><?php echo the_entete; ?></a></div>
 							<div><?php echo mecenat_entete; ?></div>
-							<div>Connexion</div>
+							<div><?php echo connexion_entete; ?></div>
+							<div><?php echo inscription_entete; ?></div>
 						</div>
 					</div>
 					<div class=" Rubrique">
