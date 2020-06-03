@@ -44,7 +44,6 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>connexion</title>
   <?php require 'PHP/entete.php'; ?>
   <link rel="stylesheet" type="text/css" href="Accueil.css">
   <img src="image/chateau.png" width="100%" height="500px"/>
