@@ -1,13 +1,13 @@
 <?php
 //entete
-	define("accueil", "<a href=Accueil.php?lang=en>Home</a>");
+	define("accueil", "<a href=accueil.php?lang=en>Home</a>");
 	define("menu", "Menu");
-	define("preparer_entete", "<a href=Preparer.php?lang=en>Prepare your visit</a>");
-	define("projet_entete", "<a href=Projet.php?lang=en>Our project");
-	define("the_entete", "<a href=The.php?lang=en>The tea shop</a>");
-	define("mecenat_entete", "<a href=Mecenat.php?lang=en>Patronage</a>");
+	define("preparer_entete", "<a href=preparer.php?lang=en>Prepare your visit</a>");
+	define("projet_entete", "<a href=projet.php?lang=en>Our project");
+	define("the_entete", "<a href=the.php?lang=en>The tea shop</a>");
+	define("mecenat_entete", "<a href=mecenat.php?lang=en>Patronage</a>");
 	define("connexion_entete", "Connexion");
-	define("inscription_entete", "Register!!");
+	define("inscription_entete", "Register");
 
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 

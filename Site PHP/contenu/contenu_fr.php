@@ -1,12 +1,12 @@
 <?php
 // entete
-define("accueil", "<a href=Accueil.php?lang=fr>Accueil</a>");
+define("accueil", "<a href=accueil.php?lang=fr>Accueil</a>");
 define("menu", "Menu");
-define("preparer_entete", "<a href=Preparer.php?lang=fr>Préparer sa visite</a>");
-define("projet_entete", "<a href=Projet.php?lang=fr>Projet</a>");
-define("the_entete", "<a href=The.php?lang=fr>Le salon de thé</a>");
-define("mecenat_entete", "<a href=Mecenat.php?lang=fr>Mecenat</a>");
-define("quisommesnous_entete", "<a href=Savoir.php?lang=fr>Qui sommes-nous?</a>");
+define("preparer_entete", "<a href=preparer.php?lang=fr>Préparer sa visite</a>");
+define("projet_entete", "<a href=projet.php?lang=fr>Projet</a>");
+define("the_entete", "<a href=the.php?lang=fr>Le salon de thé</a>");
+define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
+define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
 define("connexion_entete", "Connexion");
 define("inscription_entete", "Inscription");
 
