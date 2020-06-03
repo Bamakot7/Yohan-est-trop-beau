@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #333333;
+}
+
+.fondchateau{
+  width: 100%;
+  right: 0%;
+  top: 10%;
+  position: absolute;
+}
+
+a{
+  text-decoration: None;
+  color: white ;
+}
+
+
+.BarreNavig{
+  display: flex;
+  flex-direction: container;
+  justify-content: space-around;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  z-index: 10;
+
+}
+
+.france{
+	height: 50%;
+	top: 25%;
+	position: relative;
+}
+
+.anglais{
+	height: 50%;
+	top: 25%;
+	position: relative;
+}
+
+
+
+.Rubrique{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  line-height: 230%;
+  font-size: 120%;
+
+}
+
+.Rubrique:hover{
+  background-color: #ea5c0d;
+
+}
+
+
+.contenu{
+  display: none;
+  left: 0%;
+  top: 100%;
+  height: 500%;
+  position:fixed;
+}
+
+.Rubrique:hover .contenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  left: 0%;
+  top: 100%;
+  width: 100%;
+  background-color:  #ea5c0d;
+  position: absolute;
+}
+
+
+
+
+.upem{
+  width: 7%;
+  left: 90%;
+  position:absolute;
+}
+
+.logo{
+  width: 10%;
+  left: 10%;
+  position:absolute;
+}
+.entete{
+  top: 0%;
+  left:0%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  color: #f7af3e;
+  font-weight:bold;
+  font-size: 200%;
+}
+
+.texte{
+  color: white;
+  top: 93%;
+  left:2%;
+  width: 55%;
+  font-size:18px;
+  position: absolute;
+  text-align: justify;
+}
+
+.baspage{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.intro{
+  left: 2%;
+  color: white;
+  top: 140%;
+  height: auto;
+  width: 52%;
+  font-size: 18px;
+  position: absolute;
+  text-align: justify;
+}
+
+.savoir{
+  left: 25%;
+  color: white;
+  top: 75%;
+  height: auto;
+  width: 50%;
+  position: absolute;
+  text-align: justify;
+  padding: 1%;
+}
+
+.lieuhist{
+  top:80%;
+  left:20%;
+  color: white;
+  position: absolute;
+  width: 60%;
+  text-align: justify;
+
+
+}
+
+.image{
+  top: 180% ;
+  left: 30%;
+  position: absolute;
+}
+
+.titre{
+  left: 25%;
+  color: #ea5c0d;
+  top: 75%;
+  height: auto;
+  width: 50%;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreG{
+  left: 5%;
+  color: white;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 20px;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreG:hover{
+  background-color: #ea5c0d;
+}
+
+.cadreGm{
+  left: 15%;
+  color: white;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 20px;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreGm:hover{
+  background-color: #ea5c0d;
+}
+
+.cadreM{
+  left: 35%;
+  color: white;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 20px;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreM:hover{
+  background-color: #ea5c0d;
+}
+
+.cadreD{
+  left: 65%;
+  color: white;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 20px;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreD:hover{
+  background-color: #ea5c0d;
+}
+
+.cadreDm{
+  left: 55%;
+  color: white;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 20px;
+  position:absolute;
+  text-align: center;
+}
+
+.cadreDm:hover{
+  background-color: #ea5c0d;
+}
+
+.map{
+  left: 2%;
+  color: white;
+  top: 140%;
+  height: auto;
+  width: 400;
+  font-size: 18px;
+  position:absolute;
+  text-align: justify;
+}
+
+.questionnaire{
+  color: white;
+  left:70%;
+  top: 90%;
+  height: auto;
+  width: 400;
+  font-size: 18px;
+  position:absolute;
+  text-align: justify;
+
+}
