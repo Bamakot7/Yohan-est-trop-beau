@@ -7,8 +7,8 @@
 	define("the_entete", "<a href=The.php?lang=en>The tea shop</a>");
 	define("mecenat_entete", "<a href=Mecenat.php?lang=en>Patronage</a>");
 	define("connexion_entete", "Connexion");
-	define("inscription_entete", "Register");
-	
+	define("inscription_entete", "Register!!");
+
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 
 //contenu accueil
