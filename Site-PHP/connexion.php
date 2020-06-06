@@ -39,12 +39,8 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
   }
 }
 ?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <?php require 'PHP/entete.php'; ?>
-  <link rel="stylesheet" type="text/css" href="Accueil.css">
   <div class="titre"><h1>CONNEXION À VOTRE ESPACE</h1><br></div>
 
     <!-- Formulaire de connexion -->
