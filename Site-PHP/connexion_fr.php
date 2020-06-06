@@ -41,11 +41,11 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 ?>
 
   <?php require 'PHP/entete.php'; ?>
-  <div class="titre"><h1>CONNEXION À VOTRE ESPACE</h1><br></div>
+
 
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
-    <center><br>
+    <center><h1>Connexion</h1><br>
     Adresse mail<br><input type="text" name="mail" size="25"/><br><br><br>
     Mot de passe <br><input type="password" name="mdp" size="25"/><br><br><br>
   <input class="boutonConnexion" type="reset" name="submit" value="Effacer" />
