@@ -41,7 +41,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 ?>
 
   <?php require 'PHP/entete.php'; ?>
-  <div class="titre"><h1>CONNEXION À VOTRE ESPACE</h1><br></div>
+  <div class="titre"><h1>CONNEXION TO YOUR SPACE</h1><br></div>
 
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
