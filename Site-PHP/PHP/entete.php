@@ -22,7 +22,6 @@ if ($_GET["lang"] === "fr") {
 </head>
 <body>
 		<img src="image/chateau.png" class="fondchateau">
-		<div class="entete"><?php echo accueil; ?></div>
 		<div class="BarreNavig">
 				<div class=" Rubrique">
 					<a href="AccueilFr.html"><?php echo accueil; ?></a>

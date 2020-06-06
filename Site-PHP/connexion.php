@@ -42,15 +42,11 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 
-<head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <?php require 'PHP/entete.php'; ?>
   <link rel="stylesheet" type="text/css" href="Accueil.css">
-  <img src="image/chateau.png" width="100%" height="500px"/>
-  <center><h1 style="color: #ea5c0d"> Connexion à votre espace </h1><center>
-</head>
+  <div class="titre"><h1>CONNEXION À VOTRE ESPACE</h1><br></div>
 
-<body>
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
     <br>
