@@ -29,9 +29,10 @@ a{
 
 .connexion{
   background:  #d8ced6;
-  width: 20%;
   opacity: 90%;
   top: 93%;
+  width: 30%;
+  left: 35%;
   position: absolute;
 }
 

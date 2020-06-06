@@ -45,12 +45,12 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
 
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
-    <br>
+    <center><br>
     Adresse mail<br><input type="text" name="mail" size="25"/><br><br><br>
     Mot de passe <br><input type="password" name="mdp" size="25"/><br><br><br>
   <input class="boutonConnexion" type="reset" name="submit" value="Effacer" />
   <input class="boutonConnexion" type="submit" name="submit" value="Envoyer" /><br><br>
-  </form>
+</center></form>
 
   <?php $bas = '-100%'; ?>
   <?php require 'PHP/bas_page.php'; ?>
