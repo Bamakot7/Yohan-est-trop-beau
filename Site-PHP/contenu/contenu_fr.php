@@ -7,7 +7,7 @@ define("projet_entete", "<a href=projet.php?lang=fr>Projet</a>");
 define("the_entete", "<a href=the.php?lang=fr>Le salon de thé</a>");
 define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
-define("connexion_entete", "<a href=connexion.php?lang=en>Connexion</a>");
+define("connexion_entete", "<a href=connexion_fr.php?lang=en>Connexion</a>");
 define("inscription_entete", "<a href=inscription.php?lang=en>Inscription</a>");
 
 //contenu accueil
