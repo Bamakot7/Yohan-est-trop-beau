@@ -1,5 +1,5 @@
 <?php
-    require_once require('connexionBdd.php');
+    require('connexionBdd.php');
     
     // Verify if user already logged in ...
     session_start();
@@ -22,90 +22,56 @@
     
             // If both Passwords matches, continue
             if ($password === $confirmPassword) {
-                // If date is in a valid format, continue
-                if (validateDate($dob) == 1){
-                    // If email is in a valid format, continue
-                    $date = explode("/",$dob);
-                    $date = array($date[2], $date[1], $date[0]);
-                    $fdate=implode("-", $date);
-                    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                        $query = 'SELECT Mail FROM Adherent WHERE Mail = :email';
-                        $statement = $dbh->prepare($query);
+                // If email is in a valid format, continue
+                if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $query = 'SELECT mail FROM Adherent WHERE mail = :mail';
+                    $statement = $dbh->prepare($query);
     
+                    $statement->execute(  
+                        array(  
+                            'mail'     =>     $mail
+                        )
+                    );
+    
+                    $count = $statement->rowCount();
+    
+                    // If email already taken, error out
+                    if ($count > 0) {
+                        $err = "Email déjà utilisée !";
+                    }
+    
+                    // Continue if email is not used...
+        
+                    else {
+                        $query = 'INSERT INTO Adherent (Prenom, Nom, MotDePasse, mail) VALUES (:prenom, :nom, :prenom, :password,  :mail)';
+                        $statement = $dbh->prepare($query);
+            
                         $statement->execute(  
                             array(  
-                                'email'     =>     $email
+                                'prenom'        =>     $prenom,
+                                'nom'           =>     $nom,
+                                'password'      =>     $password,
+                                'mail'          =>     $mail,
                             )
                         );
     
-                        $count = $statement->rowCount();
-    
-                        // If email already taken, error out
-                        if ($count > 0) {
-                            $err = "Email déjà utilisée !";
-                        }
-    
-                        // Continue if email is not used...
-                        else {
-    
-                            $query = 'SELECT Username FROM Adherent WHERE Username = :username';
-                            $statement = $dbh->prepare($query);
-        
-                            $statement->execute(  
-                                array(  
-                                    'username'     =>     $username
-                                )
-                            );
-        
-                            $count = $statement->rowCount();
-        
-                            // If username already taken, error out
-                            if ($count > 0) {
-                                $err = "Pseudo déjà utilisé !";
-                            }
-    
-                            // Continue if username is not used...
-                            else {
-                                $query = 'INSERT INTO Adherent (Username, NomAd, PrenomAd, Mail, MotDePasse, CodeDif, DateNaissance) VALUES (:username, :nom, :prenom, :email, SHA1(:password), :level, :dob)';
-                                $statement = $dbh->prepare($query);
-            
-                                $statement->execute(  
-                                    array(  
-                                        'username'     =>     $username,
-                                        'nom'          =>     $nom,
-                                        'prenom'       =>     $prenom,
-                                        'email'        =>     $email,
-                                        'password'     =>     $password,
-                                        'level'        =>     $level,
-                                        'dob'          =>     $fdate
-                                    )
-                                );
-    
-                                $err = "Compte enregistré, veuillez vous connecter !";
-                            }
-                        }
+                        $err = "Compte enregistré, veuillez vous connecter !";
                     }
-                    else {
-                        $err = "Email Invalide !";
-                    }
+                }else {
+                    $err = "Email Invalide !";
                 }
-                else {
-                    $err = "Date invalide, JJ/MM/YYYY";
-                }
-            }
-            else {
-                $err = "Les mots de passes ne sont pas identiques !";
-            }
+            }else {
+            $err = "Les mots de passes ne sont pas identiques !";
         }
-    }
+
+
     
     
-    ?>
+?>
     
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="fr">
     <head>
-        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projet Escalade</title>
@@ -133,4 +99,3 @@
         
     </body>
     </html>
-?>
