@@ -159,7 +159,9 @@ define("prepare_contenu", <<<prepare
 							<hr>
 							<h2 id="decouvrir">DISCOVER THE CASTLE</h2>
 				  		<br>
-							<iframe src="https://player.vimeo.com/video/336189401" height=500 width=1000 frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+							<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+							<iframe src="https://player.vimeo.com/video/336189401" height=500 width=950 frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+							</td></table>
 							<br>
 							<br>
 							<table border="1" cellpadding="8" cellspacing="0" width=1000><td>

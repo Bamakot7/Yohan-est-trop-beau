@@ -15,10 +15,12 @@ define("inscription_entete", "<a href=inscription.php?lang=fr>Inscription</a>");
 define("accueil_contenu", <<<accueil
 
 		<div class='texte'>
+		<table border="1" cellpadding="8" cellspacing="0" width=1000 height=550><td>
 		Bienvenue sur le site de promotion du Salon de thé du château de Champs-sur-Marne.<br>
 		<p>Ce site a pour but l’exposition d’un projet visant à créer et inclure un salon de thé dans l’enceinte du jardin du château de Champs-sur-Marne.
 		Ce projet, faisant partie d’un mouvement national appelé «Les cafés du Patrimoine», vise à rendre la visite du parc, notamment dans les périodes de forte chaleur, plus agréable.</p>
 		<a href='Projet.php'><i>En savoir plus</i></a>
+		</td></table>
 		</div>
 
 		<div class="map">
@@ -54,7 +56,7 @@ define("mecenat_contenu",<<<mecenat
 			<table border="0" cellspacing=0 cellpadding=0>
 				<tr>
 					<td>
-						<img src="image/Photo_serre.jpg" alt="" height=200 width=400/>
+						<img src="image/serre.jpg" alt="" height=200 width=400/>
 					</td>
 				</tr>
 				<tr>
@@ -84,7 +86,7 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="particuliers">PARTICULIERS</h2>
 			<br>
-			<img src="image/Photo_serre.jpg" alt="" height=500 width=1000/>
+			<img src="image/serre.jpg" alt="" height=500 width=1000/>
 			<br>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
@@ -157,7 +159,9 @@ define("prepare_contenu", <<<prepare
 						<hr>
 						<h2 id="decouvrir">DÉCOUVRIR LE CHÂTEAU</h2>
 			  		<br>
-						<iframe src="https://player.vimeo.com/video/336189401" height=500 width=1000 frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+						<iframe src="https://player.vimeo.com/video/336189401" height=500 width=950 frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+						</td></table>
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>

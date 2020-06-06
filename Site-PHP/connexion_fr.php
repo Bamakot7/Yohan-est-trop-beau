@@ -46,8 +46,8 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
     <center><h1>Connexion</h1><br>
-    Adresse mail<br><input type="text" name="mail" size="25"/><br><br><br>
-    Mot de passe <br><input type="password" name="mdp" size="25"/><br><br><br>
+    <input type="text" name="mail" size="25" placeholder="Adresse mail"/><br><br>
+    <input type="password" name="mdp" size="25" placeholder="Mot de passe"/><br><br>
   <input class="boutonConnexion" type="reset" name="submit" value="Effacer" />
   <input class="boutonConnexion" type="submit" name="submit" value="Envoyer" /><br><br>
 </center></form>
