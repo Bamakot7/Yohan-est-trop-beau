@@ -12,7 +12,7 @@
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 
 //contenu accueil
-	define("accueil_contenu",<<<accueil
+define("accueil_contenu",<<<accueil
 		<div class="titre"><h1>HOME PAGE</h1><br></div>
 
 		<div class='texte'>
@@ -34,10 +34,11 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.241206540705!2d2.601900615624199!3d48.853610679286895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61020dc9a4367%3A0xc0ab72ed5661119f!2sCh%C3%A2teau%20de%20Champs-sur-Marne!5e0!3m2!1sfr!2sfr!4v1583078697028!5m2!1sfr!2sfr" width="950" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 		</div>
 
-accueil);
+accueil
+);
 
 //contenu mecenat
-	define("mecenat_contenu",<<<mecenat
+define("mecenat_contenu",<<<mecenat
 
 
 				<div class="titre"><h1 id="Haut">PATRONAGE</h1><br></div>
@@ -103,10 +104,11 @@ accueil);
 				<br><br>
 				<a href="#Haut"><i><u>Back to the top of the page</i></u></a>
 				</div>
-mecenat);
+mecenat
+);
 
 //contenu preparer sa visite
-	define("prepare_contenu", <<<prepare
+define("prepare_contenu", <<<prepare
 							<div class="titre">
 							<h1 id="Haut">PREPARE YOUR VISIT</h1><br>
 							</div>
@@ -212,12 +214,13 @@ mecenat);
 						<br><br>
 						<a href="#Haut"><i><u>Back to the top of the page</i></u></a>
 		 </div>
-prepare);
+prepare
+);
 
 //contenu projet
 
 //contenu salon the
-	define("the_contenu", <<<the
+define("the_contenu", <<<the
 
 							<div class="titre">
 							<h1 id="Haut">THE TEA SHOP</h1><br>
@@ -319,7 +322,8 @@ prepare);
 						<a href="#Haut"><i><u>Back to the top of the page</i></u></a>
 		 </div>
 
-the);
+the
+);
 
 //En savoir plus contenu
 
