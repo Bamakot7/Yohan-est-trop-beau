@@ -356,7 +356,7 @@ projet
 						<table border="0" cellspacing=0 cellpadding=0>
 							<tr>
 								<td>
-									<img src="image/Photo_serre.jpg" alt="" height=200 width=400/>
+									<img src="image/serre.jpg" alt="" height=200 width=400/>
 								</td>
 							</tr>
 							<tr>
@@ -399,7 +399,7 @@ projet
 			  		<hr>
 						<h2 id="delaisse">UN LIEU DÉLAISSÉ À RÉNOVER</h2>
 			  		<br>
-						<img src="image/Photo_serre.jpg" alt="" height=500 width=1000/>
+						<img src="image/serre.jpg" alt="" height=500 width=1000/>
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>

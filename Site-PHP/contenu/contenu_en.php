@@ -242,7 +242,7 @@ prepare);
 							<table border="0" cellspacing=0 cellpadding=0>
 								<tr>
 									<td>
-										<img src="image/Photo_serre.jpg" alt="" height=200 width=400/>
+										<img src="image/serre.jpg" alt="" height=200 width=400/>
 									</td>
 								</tr>
 								<tr>
@@ -285,7 +285,7 @@ prepare);
 				  		<hr>
 							<h2 id="delaisse">A NEGLECTED PLACE TO RENOVATE</h2>
 				  		<br>
-							<img src="image/Photo_serre.jpg" alt="" height=500 width=1000/>
+							<img src="image/serre.jpg" alt="" height=500 width=1000/>
 							<br>
 							<br>
 							<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
