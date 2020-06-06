@@ -390,7 +390,7 @@ projet
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						FRISE CHRONO
+						<img src="image/frise.jpg" alt="" height=500 width=1000/>
 						</td></table>
 					<br>
 					<br>
