@@ -10,8 +10,7 @@
     if(isset($_POST["submit"])) {
         if(empty($_POST["email"]) || empty($_POST["password"]) ||  empty($_POST["firstName"]) || empty($_POST["lastName"])){
             $err = "Remplissez tout les champs !";
-        }
-        else {
+        }else {
             require_once("connexionBdd.php");
     
             $mail = htmlentities($_POST["email"]);
@@ -22,48 +21,45 @@
     
             // If both Passwords matches, continue
             if ($password === $confirmPassword) {
-                // If email is in a valid format, continue
-                if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                    $query = 'SELECT mail FROM Adherent WHERE mail = :mail';
-                    $statement = $dbh->prepare($query);
+                $query = 'SELECT mail FROM Adherent WHERE mail = :mail';
+                $statement = $dbh->prepare($query);
     
+                $statement->execute(  
+                    array(  
+                        'mail'     =>     $mail
+                    )
+                );
+    
+                $count = $statement->rowCount();
+    
+                // If email already taken, error out
+                if ($count > 0) {
+                    $err = "Email déjà utilisée !";
+                }
+    
+                // Continue if email is not used...
+        
+                else {
+                    $query = 'INSERT INTO Adherent (Prenom, Nom, MotDePasse, mail) VALUES (:prenom, :nom, :prenom, :password,  :mail)';
+                    $statement = $dbh->prepare($query);
+            
                     $statement->execute(  
                         array(  
-                            'mail'     =>     $mail
+                            'prenom'        =>     $prenom,
+                            'nom'           =>     $nom,
+                            'password'      =>     $password,
+                            'mail'          =>     $mail,
                         )
                     );
     
-                    $count = $statement->rowCount();
-    
-                    // If email already taken, error out
-                    if ($count > 0) {
-                        $err = "Email déjà utilisée !";
-                    }
-    
-                    // Continue if email is not used...
-        
-                    else {
-                        $query = 'INSERT INTO Adherent (Prenom, Nom, MotDePasse, mail) VALUES (:prenom, :nom, :prenom, :password,  :mail)';
-                        $statement = $dbh->prepare($query);
-            
-                        $statement->execute(  
-                            array(  
-                                'prenom'        =>     $prenom,
-                                'nom'           =>     $nom,
-                                'password'      =>     $password,
-                                'mail'          =>     $mail,
-                            )
-                        );
-    
-                        $err = "Compte enregistré, veuillez vous connecter !";
-                    }
-                }else {
-                    $err = "Email Invalide !";
+                    $err = "Compte enregistré, veuillez vous connecter !";
                 }
-            }else {
+            }
+        else{
             $err = "Les mots de passes ne sont pas identiques !";
-        }
-
+        } 
+    }
+}
 
     
     
