@@ -33,6 +33,7 @@ if ($_GET["lang"] === "fr") {
 							<div><?php echo projet_entete; ?></a></div>
 							<div><?php echo the_entete; ?></a></div>
 							<div><?php echo mecenat_entete; ?></div>
+              <div><?php echo avis_entete; ?></div>
 
 						</div>
 					</div>

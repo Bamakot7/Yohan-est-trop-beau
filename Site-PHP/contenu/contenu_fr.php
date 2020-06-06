@@ -6,24 +6,19 @@ define("preparer_entete", "<a href=preparer.php?lang=fr>Préparer sa visite</a>"
 define("projet_entete", "<a href=projet.php?lang=fr>Projet</a>");
 define("the_entete", "<a href=the.php?lang=fr>Le salon de thé</a>");
 define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
+define("avis_entete", "<a href=avis.php?lang=fr>Votre avis nous intéresse</a>");
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
 define("connexion_entete", "<a href=connexion_fr.php?lang=fr>Connexion</a>");
 define("inscription_entete", "<a href=inscription.php?lang=fr>Inscription</a>");
 
 //contenu accueil
 define("accueil_contenu", <<<accueil
-		<div class="titre"><h1>ACCUEIL</h1><br></div>
 
 		<div class='texte'>
 		Bienvenue sur le site de promotion du Salon de thé du château de Champs-sur-Marne.<br>
 		<p>Ce site a pour but l’exposition d’un projet visant à créer et inclure un salon de thé dans l’enceinte du jardin du château de Champs-sur-Marne.
 		Ce projet, faisant partie d’un mouvement national appelé «Les cafés du Patrimoine», vise à rendre la visite du parc, notamment dans les périodes de forte chaleur, plus agréable.</p>
 		<a href='Projet.php'><i>En savoir plus</i></a>
-		</div>
-
-		<div class="questionnaire">
-			<hr>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width="400" height="1300" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 		</div>
 
 		<div class="map">
@@ -166,7 +161,7 @@ define("prepare_contenu", <<<prepare
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						Découvrez la vidéo......
+						Découvrir le château en vidéo......
 						</td></table>
 					<br>
 					<br>
@@ -446,6 +441,72 @@ define("savoir_contenu", <<<savoir
 				Développeurs: Yohan ASTIER & Cléis BENOIT-GONIN,<br>
 				Designer: Maryline FERNANDES & Maisa MILADI.</div>
 savoir
+);
+
+//contenu avis
+define("avis_contenu", <<<avis
+	<div class="titre"><h1 id="Haut">VOTRE AVIS</h1><br></div>
+
+	<div class="cadreGm">
+	<table border="0" cellspacing=0 cellpadding=0>
+		<tr>
+			<td>
+				<img src="image/chateau1.png" alt="" height=200 width=400/>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ea5c0d height=100>
+				<a href="#questionnaire"><center>Questionnaire sur le salon de thé</center></a>
+			</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="cadreDm">
+	<table border="0" cellspacing=0 cellpadding=0>
+		<tr>
+			<td>
+				<img src="image/serre.jpg" alt="" height=200 width=400/>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ea5c0d height=100>
+				<a href="#commentaire"><center>Laissez un commentaire</center></a>
+			</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="intro">
+	<hr>
+	<h2 id="questionnaire">QUESTIONNAIRE SUR LE SALON DE THÉ</h2>
+	<br>
+	<img src="image/chateau1.png" alt="" height=500 width=1000/>
+	<br>
+	<br>
+	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width="950" height="1100" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+	</td></table>
+<br>
+<br>
+<br>
+
+	<hr>
+	<h2 id="commentaire">LAISSEZ UN COMMENTAIRE</h2>
+	<br>
+	<img src="image/serre.jpg" alt="" height=500 width=1000/>
+	<br>
+	<br>
+	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+
+	</td></table>
+
+	<br><br>
+	<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
+	</div>
+
+
+avis
 );
 
 ?>

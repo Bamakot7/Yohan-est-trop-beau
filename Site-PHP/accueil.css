@@ -270,24 +270,12 @@ a{
 }
 
 .map{
-  left: 2%;
+  left: 53%;
   color: white;
-  top: 140%;
+  top: 92%;
   height: auto;
   width: 400;
   font-size: 18px;
   position:absolute;
   text-align: justify;
-}
-
-.questionnaire{
-  color: white;
-  left:70%;
-  top: 90%;
-  height: auto;
-  width: 400;
-  font-size: 18px;
-  position:absolute;
-  text-align: justify;
-
 }

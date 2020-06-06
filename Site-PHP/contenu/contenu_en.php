@@ -6,6 +6,7 @@
 	define("projet_entete", "<a href=projet.php?lang=en>Our project");
 	define("the_entete", "<a href=the.php?lang=en>The tea shop</a>");
 	define("mecenat_entete", "<a href=mecenat.php?lang=en>Patronage</a>");
+	define("avis_entete", "<a href=avis.php?lang=en>We are interested in your opinion</a>");
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
 	define("inscription_entete", "<a href=inscription.php?lang=en>Register</a>");
 
@@ -13,18 +14,14 @@
 
 //contenu accueil
 define("accueil_contenu",<<<accueil
-		<div class="titre"><h1>HOME PAGE</h1><br></div>
 
-		<div class='texte'>
+		<div class="texte">
+		<table border="1" cellpadding="8" cellspacing="0" width=1000 height=550><td>
 		Welcome to the promotional website of the Tea Salon of the Champs-sur-Marne castle. <br>
 		<p> The purpose of this site is to promote a project to create and include a Teashop in the garden of the castle of Champs sur Marne.
 		This project, which is part of a national initiative called "Les cafés du patrimoine", aims to make the visit of the park, especially in summertime, more pleasant.</p>
-		<a href="projetEn.html"><i>about it</i></a>
-		</div>
-
-		<div class="questionnaire">
-			<hr>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width="400" height="1300" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+		<a href="projetEn.html"><i>More about it</i></a>
+		</td></table>
 		</div>
 
 		<div class="map">
@@ -166,7 +163,7 @@ define("prepare_contenu", <<<prepare
 							<br>
 							<br>
 							<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-							Discover the video......
+							Discover the castle in video......
 							</td></table>
 						<br>
 						<br>
@@ -323,6 +320,72 @@ define("the_contenu", <<<the
 		 </div>
 
 the
+);
+
+//contenu avis
+define("avis_contenu", <<<avis
+	<div class="titre"><h1 id="Haut">YOUR OPINION</h1><br></div>
+
+	<div class="cadreGm">
+	<table border="0" cellspacing=0 cellpadding=0>
+		<tr>
+			<td>
+				<img src="image/chateau1.png" alt="" height=200 width=400/>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ea5c0d height=100>
+				<a href="#questionnaire"><center>TeaShop Questionnaire</center></a>
+			</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="cadreDm">
+	<table border="0" cellspacing=0 cellpadding=0>
+		<tr>
+			<td>
+				<img src="image/serre.jpg" alt="" height=200 width=400/>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ea5c0d height=100>
+				<a href="#commentaire"><center>Leave a comment</center></a>
+			</td>
+	</tr>
+	</table>
+	</div>
+
+	<div class="intro">
+	<hr>
+	<h2 id="questionnaire">TEASHOP QUESTIONNAIRE</h2>
+	<br>
+	<img src="image/chateau1.png" alt="" height=500 width=1000/>
+	<br>
+	<br>
+	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width="950" height="1100" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+	</td></table>
+<br>
+<br>
+<br>
+
+	<hr>
+	<h2 id="commentaire">LEAVE A COMMENT</h2>
+	<br>
+	<img src="image/serre.jpg" alt="" height=500 width=1000/>
+	<br>
+	<br>
+	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+
+	</td></table>
+
+	<br><br>
+	<a href="#Haut"><i><u>Back to the top of the page</i></u></a>
+	</div>
+
+
+avis
 );
 
 //En savoir plus contenu
