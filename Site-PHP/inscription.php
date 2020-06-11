@@ -41,7 +41,7 @@
                 // Continue if email is not used...
 
                 else {
-                    $query = 'INSERT INTO user (Prenom, Nom, MotDePasse, mail) VALUES (:prenom, :nom, :prenom, :password,  :mail)';
+                    $query = 'INSERT INTO user (Prenom, Nom, MotDePasse, mail) VALUES (:nom, :prenom, :password,  :mail)';
                     $statement = $dbh->prepare($query);
 
                     $statement->execute(
