@@ -3,6 +3,11 @@
 
 
     // Verify if user already logged in ...
+    //on verifie que la langue n'est pas le français
+    if ($_GET["lang"] == "en") {
+        header("location:connexion_en.php");
+    }
+
     session_start();
     if(isset($_SESSION["mail"])){
         header("location:test.php");
