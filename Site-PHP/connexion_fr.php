@@ -1,4 +1,9 @@
 <?php
+  //on verifie que la langue n'est pas le français
+  if ($_GET["lang"] == "en") {
+    header("location:connexion_en.php");
+  }
+
 // Connexion à la base de donnéees
 require('connexionBdd.php');
 //Initialisation de la session
