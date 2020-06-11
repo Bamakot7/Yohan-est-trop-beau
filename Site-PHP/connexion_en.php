@@ -1,4 +1,6 @@
 <?php
+
+  require 'PHP/entete.php';
   //on verifie que la langue n'est pas le français
   if ($_GET["lang"] == "fr") {
     header("location:connexion_fr.php");
@@ -45,7 +47,6 @@
   }
 ?>
 
-  <?php require 'PHP/entete.php'; ?>
 
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
