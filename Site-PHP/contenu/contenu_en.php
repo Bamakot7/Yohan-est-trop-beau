@@ -8,7 +8,7 @@
 	define("mecenat_entete", "<a href=mecenat.php?lang=en>Patronage</a>");
 	define("avis_entete", "<a href=avis.php?lang=en>We are interested in your opinion</a>");
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
-	define("inscription_entete", "<a href=inscription.php?lang=en>Register</a>");
+	define("inscription_entete", "<a href=inscription_en.php?lang=en>Register</a>");
 
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 

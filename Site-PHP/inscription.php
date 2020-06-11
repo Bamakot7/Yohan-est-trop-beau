@@ -76,7 +76,7 @@
             <input type="text" name="firstName" placeholder="Prénom"><br><br>
             <input type="text" name="lastName" placeholder="Nom"><br><br>
             <input type="password" name="password" placeholder="Mot de Passe"><br><br>
-            <input type="password" name="confirmPassword" placeholder="Comfirmation Mot de Passe"><br><br>
+            <input type="password" name="confirmPassword" placeholder="Confirmation Mot de Passe"><br><br>
             <input class="boutonConnexion" type="submit" name="submit" value="Envoyer">
             <?php
             if(isset($err)) {
