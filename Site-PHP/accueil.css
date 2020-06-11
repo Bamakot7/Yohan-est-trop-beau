@@ -86,7 +86,7 @@ a{
   display: none;
   left: 0%;
   top: 100%;
-  height: 500%;
+  height: 450%;
   position:fixed;
 }
 
@@ -276,8 +276,8 @@ a{
   color: white;
   top: 92%;
   height: auto;
-  width: 400;
+  width: 50%;
   font-size: 18px;
-  position:absolute;
+  position: absolute;
   text-align: justify;
 }
