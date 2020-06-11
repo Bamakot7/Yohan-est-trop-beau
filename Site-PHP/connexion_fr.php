@@ -1,5 +1,6 @@
 <?php
   //on verifie que la langue n'est pas le français
+  require 'PHP/entete.php';
   if ($_GET["lang"] == "en") {
     header("location:connexion_en.php");
   }
@@ -44,10 +45,6 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
   }
 }
 ?>
-
-  <?php require 'PHP/entete.php'; ?>
-
-
     <!-- Formulaire de connexion -->
   <form class="connexion" action="" method="post">
     <center><h1>Connexion</h1><br>
