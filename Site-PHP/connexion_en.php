@@ -6,6 +6,13 @@
     header("location:connexion_fr.php");
   }
 
+  if (isset($_SESSION['mail'])) {
+    header("location:accueil.php?lang=en");
+  } 
+
+  if (isset($_SESSION['mail'])) {
+    header("location:accueil.php?lang=fr");
+  } 
   // Connexion à la base de donnéees
   require('connexionBdd.php');
   //Initialisation de la session
@@ -35,7 +42,7 @@
         $_SESSION['mail'] = $mail;
         $_SESSION['mdp'] = $mdp;
 
-        header('location: accueil.php');
+        header("location:accueil.php?lang=en");
       }
       else {//Sinon on affiche un message d'erreur
         echo '<body onLoad="alert(\'Identifiants incorrects\')">';

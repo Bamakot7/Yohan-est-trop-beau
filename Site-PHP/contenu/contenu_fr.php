@@ -11,7 +11,7 @@ define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>"
 define("connexion_entete", "<a href=connexion_fr.php?lang=fr>Connexion</a>");
 define("inscription_entete", "<a href=inscription.php?lang=fr>Inscription</a>");
 define("monCompte", "Mon compte");
-define("deco","Déconnexion");
+define("deco","<a href=PHP/deco.php?lang=fr>Déconnexion</a>");
 
 //contenu accueil
 define("accueil_contenu", <<<accueil

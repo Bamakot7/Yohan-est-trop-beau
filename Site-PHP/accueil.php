@@ -1,5 +1,5 @@
 <?php
-
+	session_start ();
 	if (isset($_SESSION) && isset($_SESSION["mail"])) {
 		require('PHP/entete_co.php');
 	}else{

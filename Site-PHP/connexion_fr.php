@@ -10,6 +10,12 @@ require('connexionBdd.php');
 //Initialisation de la session
 session_start ();
 
+//on verifie si il n'est pas déjà connecté
+if (isset($_SESSION['mail'])) {
+  header("location:accueil.php?lang=fr");
+} 
+
+
 // On vérifie que l'utilisateur à bien appuyer sur le bouton du formulaire
 if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
   // récupère les données saisies
@@ -34,7 +40,7 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
       $_SESSION['mail'] = $mail;
       $_SESSION['mdp'] = $mdp;
 
-      header('location: accueil.php');
+      header('location: accueil.php?lang=fr');
     }
     else {//Sinon on affiche un message d'erreur
       echo '<body onLoad="alert(\'Identifiants incorrects\')">';
