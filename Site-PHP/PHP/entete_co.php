@@ -16,7 +16,7 @@ if ($_GET["lang"] === "fr") {
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="Accueil.css">
+	<link rel="stylesheet" type="text/css" href="accueil.css">
 	<meta charset="utf-8">
 	<title><?php echo basename($_SERVER['PHP_SELF']); ?></title>
 </head>
