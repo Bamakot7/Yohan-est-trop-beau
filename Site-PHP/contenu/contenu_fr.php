@@ -10,6 +10,8 @@ define("avis_entete", "<a href=avis.php?lang=fr>Votre avis nous intéresse</a>")
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
 define("connexion_entete", "<a href=connexion_fr.php?lang=fr>Connexion</a>");
 define("inscription_entete", "<a href=inscription.php?lang=fr>Inscription</a>");
+define("monCompte", $_SESSION['mail']);
+define("deco","Déconnexion");
 
 //contenu accueil
 define("accueil_contenu", <<<accueil

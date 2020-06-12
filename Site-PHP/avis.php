@@ -1,4 +1,10 @@
-<?php require 'PHP/entete.php'; ?>
-	<?php echo avis_contenu; ?>
-	<?php $bas = '-400%' ?>
-<?php require 'PHP/bas_page.php'; ?>
+<?php 
+	if (isset($_SESSION["mail"])) {
+		require('PHP/entete_co.php');
+	}else{
+		require 'PHP/entete.php'; 
+	}
+	echo avis_contenu;
+	$bas = '-400%';
+	require 'PHP/bas_page.php'; 
+?>
