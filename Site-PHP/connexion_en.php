@@ -35,7 +35,7 @@
         $_SESSION['mail'] = $mail;
         $_SESSION['mdp'] = $mdp;
 
-        header('location: accueilConnecte.php');
+        header('location: accueil.php');
       }
       else {//Sinon on affiche un message d'erreur
         echo '<body onLoad="alert(\'Identifiants incorrects\')">';
