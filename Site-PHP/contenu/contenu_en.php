@@ -10,7 +10,7 @@
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
 	define("inscription_entete", "<a href=inscription_en.php?lang=en>Register</a>");
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
-	define("monCompte", $_SESSION['mail']);
+	define("monCompte", "My account");
 	define("deco","Logout");
 
 //contenu accueil
