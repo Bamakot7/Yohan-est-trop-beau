@@ -295,6 +295,8 @@ a{
 
 .messageTable table{
   width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
 }
 
 .messageTable table, tr, td{
