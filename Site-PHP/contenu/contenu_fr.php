@@ -12,6 +12,7 @@ define("connexion_entete", "<a href=connexion_fr.php?lang=fr>Connexion</a>");
 define("inscription_entete", "<a href=inscription.php?lang=fr>Inscription</a>");
 define("monCompte", "Mon compte");
 define("deco","<a href=PHP/deco.php?lang=fr>Déconnexion</a>");
+define("message","<a href=message.php?lang=fr>Messages</a>");
 
 //contenu accueil
 define("accueil_contenu", <<<accueil

@@ -49,6 +49,7 @@ if ($_GET["lang"] === "fr") {
 
 				<div class="Rubrique"><?php echo monCompte; ?></div>
 				<div class="Rubrique"><?php echo deco; ?></div>
+				<div class="Rubrique"><?php echo message; ?></div>
 
 				<div class=" Rubrique">
 					<a href="<?php echo $_SERVER["PHP_SELF"]; ?>?lang=fr">

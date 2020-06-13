@@ -12,6 +12,7 @@
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
 	define("monCompte", "My account");
 	define("deco","<a href=PHP/deco.php?lang=en>Logout</a>");
+	define("message","<a href=message.php?lang=en>Message</a>");
 
 //contenu accueil
 define("accueil_contenu",<<<accueil
