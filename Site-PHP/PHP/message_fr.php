@@ -13,7 +13,7 @@
             $result = $data->fetchAll(\PDO::FETCH_ASSOC);
 
             foreach($result as $row){
-               echo "<tr><td>".$row["Nom"]."</td><td>".$row["date"]."</td><td>".$row["commentaire"]."</td></tr>";
+               echo "<tr><td>".$row["Nom"]." ".$row["Prenom"]."</td><td>".$row["date"]."</td><td>".$row["commentaire"]."</td></tr>";
             }
             $data->closeCursor();
         ?>
