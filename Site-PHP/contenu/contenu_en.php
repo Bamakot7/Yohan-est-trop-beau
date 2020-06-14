@@ -10,7 +10,7 @@
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
 	define("inscription_entete", "<a href=inscription_en.php?lang=en>Register</a>");
 	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
-	define("monCompte", "My account");
+	define("monCompte", "<a href=membre.php?lang=en>My account</a>");
 	define("deco","<a href=PHP/deco.php?lang=en>Logout</a>");
 	define("message","<a href=message.php?lang=en>Message</a>");
 

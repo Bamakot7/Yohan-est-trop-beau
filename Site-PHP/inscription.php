@@ -7,7 +7,7 @@
 
     session_start();
     if(isset($_SESSION["mail"])){
-        header("location:test.php");
+        header("location:accueil.php?lang=fr");
     }
 
     if(isset($_POST["submit"])) {
@@ -56,6 +56,9 @@
                     );
 
                     $err = "Compte enregistré, veuillez vous connecter !";
+                    $_SESSION["mail"] = $mail;
+                    $_SESSION["mdp"] = $password;
+                    header("location:accueil.php?lang=fr");
                 }
             }
         else{
