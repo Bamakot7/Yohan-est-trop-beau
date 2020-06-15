@@ -9,7 +9,7 @@
 	define("avis_entete", "<a href=avis.php?lang=en>We are interested in your opinion</a>");
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
 	define("inscription_entete", "<a href=inscription_en.php?lang=en>Register</a>");
-	define("quisommesnous_entete", "<a href=Savoir.php?lang=en>More about it</a>");
+	define("quisommesnous_entete", "<a href=savoir.php?lang=en>More about it</a>");
 	define("monCompte", "<a href=membre.php?lang=en>My account</a>");
 	define("deco","<a href=PHP/deco.php?lang=en>Logout</a>");
 	define("message","<a href=message.php?lang=en>Message</a>");
@@ -62,7 +62,7 @@ define("mecenat_contenu",<<<mecenat
 				<table border="0" cellspacing=0 cellpadding=0>
 					<tr>
 						<td>
-							<img src="image/Photo_serre.jpg" alt="" height=200 width=400/>
+							<img src="image/serre.jpg" alt="" height=200 width=400/>
 						</td>
 					</tr>
 					<tr>
