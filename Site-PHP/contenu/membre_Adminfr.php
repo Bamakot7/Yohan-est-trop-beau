@@ -12,7 +12,7 @@
             $result = $data->fetchAll(\PDO::FETCH_ASSOC);
     
             foreach($result as $row){
-                echo "<tr><td>".$row["Nom"]."</td><td>".$row["Prenom"]."</td><td>".$row["mail"]."</td></tr> \n";
+                echo "<tr><td>".$row["Nom"]."</td><td>".$row["Prenom"]."</td><td><a href=\"membreAdmin.php?lang=fr&user=".$row["mail"]."\">".$row["mail"]."</a></td></tr> \n";
             }
             $data->closeCursor();
         ?>

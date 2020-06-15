@@ -13,7 +13,7 @@
 	define("monCompte", "<a href=membre.php?lang=en>My account</a>");
 	define("deco","<a href=PHP/deco.php?lang=en>Logout</a>");
 	define("message","<a href=message.php?lang=en>Message</a>");
-	define("gestionCompte","Members");
+	define("gestionCompte","<a href=membreAdmin.php?lang=en>Members</a>");
 
 //contenu accueil
 define("accueil_contenu",<<<accueil
