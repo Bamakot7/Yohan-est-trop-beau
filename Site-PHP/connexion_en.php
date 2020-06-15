@@ -19,7 +19,7 @@
   session_start ();
 
   // On vérifie que l'utilisateur à bien appuyer sur le bouton du formulaire
-  if (isset($_POST['submit']) && $_POST['submit'] == 'Envoyer') {
+  if (isset($_POST['submit']) && $_POST['submit'] == 'Send') {
     // récupère les données saisies
     $mail = $_POST['mail'];
     $mdp = $_POST['mdp'];
@@ -38,11 +38,21 @@
 
       //On teste l'égalité entre les données saisies du formulaire et les Identifiants de la base de données
       if ($mail_valide == $mail && $mdp_valide == $mdp) {
-        // On démarre la session si ce sont les bons
-        $_SESSION['mail'] = $mail;
-        $_SESSION['mdp'] = $mdp;
-
-        header("location:accueil.php?lang=en");
+        if ($mail_valide == $mail && $mdp_valide == $mdp) {
+          //On regarde si il est admin
+          if ($mail_valide == "Admin" && $mdp_valide == $mdp) {
+            $_SESSION['mail'] = $mail;
+            $_SESSION['mdp'] = $mdp;
+            header('location: membreAdmin.php?lang=fr');
+    
+          }else{
+            // On démarre la session si ce sont les bons
+            $_SESSION['mail'] = $mail;
+            $_SESSION['mdp'] = $mdp;
+            header('location: accueil.php?lang=fr');
+          }
+          
+        }
       }
       else {//Sinon on affiche un message d'erreur
         echo '<body onLoad="alert(\'Identifiants incorrects\')">';
