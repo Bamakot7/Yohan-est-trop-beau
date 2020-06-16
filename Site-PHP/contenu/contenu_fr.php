@@ -19,20 +19,34 @@ define("gestionCompte","<a href=membreAdmin.php?lang=fr>Membres</a>");
 //contenu accueil
 define("accueil_contenu", <<<accueil
 
-		<div class='texte'>
-		<table border="1" cellpadding="8" cellspacing="0" width=1000 height=550><td>
+		<div class='accueil'>
+		<hr>
+		<h2>Bienvenue</h2><br>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		Bienvenue sur le site de promotion du Salon de thé du château de Champs-sur-Marne.<br>
 		<p>Ce site a pour but l’exposition d’un projet visant à créer et inclure un salon de thé dans l’enceinte du jardin du château de Champs-sur-Marne.
 		Ce projet, faisant partie d’un mouvement national appelé «Les cafés du Patrimoine», vise à rendre la visite du parc, notamment dans les périodes de forte chaleur, plus agréable.</p>
-		<a href='Projet.php'><i>En savoir plus</i></a>
+		<a href='presentation.php'><i>En savoir plus</i></a>
 		</td></table>
-		</div>
-
-		<div class="map">
+		<br>
+		<br>
+		<br>
 			<hr>
-			Château de Champs-sur-Marne
-			<br><br>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.241206540705!2d2.601900615624199!3d48.853610679286895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61020dc9a4367%3A0xc0ab72ed5661119f!2sCh%C3%A2teau%20de%20Champs-sur-Marne!5e0!3m2!1sfr!2sfr!4v1583078697028!5m2!1sfr!2sfr" width="950" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			<h2>Château de Champs-sur-Marne</h2>
+			<br>
+			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+			"Le château de Champs-sur-Marne est caractéristique des maisons de plaisance du XVIIIème siècle bâties à la campagne, permettant un nouvel art de vivre.  Construit de 1703 à 1708 par les architectes Pierre Bullet et Jean-Baptiste Bullet de Chamblain, à la demande du financier de Louis XIV, Paul Poisson de Bourvallais. Le château présente  de somptueux décors rocaille, ainsi que des décors de chinoiseries peintes au milieu du XVIIIème siècle par Christophe Huet."
+			-<a href=http://www.chateau-champs-sur-marne.fr><i>Site du Château de Champs-sur-Marne</i></a>
+			</td></table>
+			<br>
+			<br>
+			<br>
+				<hr>
+				<h2>Localisation</h2>
+				<br>
+				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.241206540705!2d2.601900615624199!3d48.853610679286895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61020dc9a4367%3A0xc0ab72ed5661119f!2sCh%C3%A2teau%20de%20Champs-sur-Marne!5e0!3m2!1sfr!2sfr!4v1583078697028!5m2!1sfr!2sfr" width=100% height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</td></table>
 		</div>
 accueil
 );
@@ -76,10 +90,10 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="entreprise">ENTREPRISES ET FONDATIONS</h2>
 			<br>
-			<img src="image/chateau1.png" alt="" height=500 width=1000/>
+			<img src="image/chateau1.png" alt="" height=50% width=100%/>
 			<br>
 			<br>
-			<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 			Votre contribution peut nous être utile et nous apporter beaucoup de fonds qui nous permettront de mener à bien ce projet.<br>
 			En tant que grands donateurs, pour vous remercier de votre participation, nous pourrions vous proposer de graver le nom de votre société sur la serre ou de l’associer à des expositions.<br>
 			De plus, la situation fiscale lié au mécénat vous permet de profiter d’une réduction de l’impôt sur les sociétés à hauteur de 60% du montant du don dans la limite de 0,5% du chiffre d’affaire hors taxe.
@@ -91,10 +105,10 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="particuliers">PARTICULIERS</h2>
 			<br>
-			<img src="image/serre.jpg" alt="" height=500 width=1000/>
+			<img src="image/serre.jpg" alt="" height=50% width=100%/>
 			<br>
 			<br>
-			<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 			Votre contribution est tout autant importante pour nous, aucun don n’est négligé.<br>
 			En tant que donateur, afin de vous remercier, nous aimerions vous proposer de posséder un banc du parc du château ou bien d’apposer votre nom aux côtés des autres donateurs sur la serre.<br>
 			De plus, votre don vous permet de bénéficier d’une réduction d'impôt égale à 66 % des sommes versées, dans la limite annuelle de 20 % du revenu imposable.
@@ -164,12 +178,12 @@ define("prepare_contenu", <<<prepare
 						<hr>
 						<h2 id="decouvrir">DÉCOUVRIR LE CHÂTEAU</h2>
 			  		<br>
-						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						<iframe src="https://player.vimeo.com/video/336189401" height=500 width=950 frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+						<iframe src="https://player.vimeo.com/video/336189401" height=50% width=100% frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
 						</td></table>
 						<br>
 						<br>
-						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 						Découvrir le château en vidéo......
 						</td></table>
 					<br>
@@ -179,10 +193,10 @@ define("prepare_contenu", <<<prepare
 			  		<hr>
 						<h2 id="horaires">HORAIRES ET ACCÈS</h2>
 			  		<br>
-						<img src="image/jardin.jpg" alt="" height=500 width=1000/>
+						<img src="image/jardin.jpg" alt="" height=50% width=100%/>
 						<br>
 						<br>
-						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 						HORAIRES<br><br>
 						Du 2 janvier au 26 mai<br>
 			      Ouvert tous les jours sauf le mardi 10.00-12.15 / 13.30-17.00<br>
@@ -206,10 +220,10 @@ define("prepare_contenu", <<<prepare
 					<hr>
 					<H2 id="tarifs">TARIFS</H2>
 					<br>
-					<img src="image/chateau1.png" alt="" height=500 width=1000/>
+					<img src="image/chateau1.png" alt="" height=50% width=100%/>
 					<br>
 					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Plein tarif: 8€<br>
 					18-25 ans: 6.50€<br>
 					Mineur: Gratuit
@@ -278,10 +292,10 @@ prepare
 					<hr>
 					<h2 id="Projet">UN PROJET SUR LE PATRIMOINE</h2>
 		  		<br>
-					<img src="image/chateau1.png" alt="" height=500 width=1000/>
+					<img src="image/chateau1.png" alt="" height=50% width=100%/>
 					<br>
 					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Ce projet consiste à la valorisation du château de Champs sur Marne, en particulier sa serre, en imaginant la création
 					d’un salon de thé moderne, en partenariat avec l’adjointe au château, Catherine Metz.<br>
 					Ce projet vise à promouvoir ce monument en valorisant ce qui existe déjà au sein du jardin (une la
@@ -298,10 +312,10 @@ prepare
 		  		<hr>
 					<h2 id="Conception">CONCEPTION D'UN SUPPORT DE COMMUNICATION</h2>
 		  		<br>
-					<img src="image/ordi.jpg" alt="" height=500 width=1000/>
+					<img src="image/ordi.jpg" alt="" height=50% width=100%/>
 					<br>
 					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Afin de mener à bien la promotion de ce projet et de soulever des fonds pour sa réalisation, nous avons été amenés à concevoir un site mettant en avant ce projet.<br>
 					Ce site internet est donc un support de communication visant à expliquer notre projet et le rendre attractif.
 					Pour ce faire, nous avons dû prendre en compte différents éléments pour mener à bien sa réalisation. Nous avons alors considéré les attentes des utilisateurs avec l’approche du design thinking en utilisant plus particulièrement la méthode agile et ses outils. Cela nous a permis de mieux cerner les besoins des utilisateurs et d’y répondre plus précisément.
@@ -314,16 +328,16 @@ prepare
 				<hr>
 				<H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
 				<br>
-				<img src="image/diapo/serre.png" alt="" height=500 width=1000/>
+				<img src="image/diapo/serre.png" alt="" height=50% width=100%/>
 				<br>
 				<br>
 				<h3> Un lieu chargé d'histoire </h3>
-				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 				<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcJJFBqRigXl13ezxOG7fCApu8wlU9vEIaet0RZ_PtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 				</td></table>
 				<br><br>
 				<h3> Un lieu délaissé à rénover </h3>
-				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 				Après des tempêtes qui l’ont abîmée et rendue impossible d’usage, cette serre fût délaissée. Le but de ce projet est donc de la rénover et de lui donner une seconde vie.<br>
 				En effet, par le biais de l’initiative “Les cafés du patrimoine”, la serre pourrait être rénovée à l’identique afin de conserver son architecture du XVIIIème siècle tout en la modernisant en la transformant en salon de thé.<br>
 				Sa rénovation permettra d’ajouter un lieu de halte dans le parc du château ce qui rendrait ce lieu plus attractif.
@@ -331,7 +345,7 @@ prepare
 				<br><br>
 
 				<h3> Un lieu nouveau </h3>
-				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 				Le salon de thé aurait donc deux vocations principales:<br>
 				<br>
 				La première, proposer aux visiteurs de quoi se désaltérer par différentes boissons (de qualité plus ou moins élevées, allant du bon thé au soda) ainsi de quoi combler un petit creu: on pourrait ici imaginer des produits allant de la crêpe, au sandwich.<br>
@@ -401,10 +415,10 @@ presentation
 					<hr>
 					<h2 id="proposition">PROPOSITION DES ÉTUDIANTS</h2>
 		  		<br>
-					<img src="image/biblio.jpg" alt="" height=500 width=1000/>
+					<img src="image/biblio.jpg" alt="" height=50% width=100%/>
 					<br>
 					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Les étudiants ont proposés différents idées afin de développer le projet du salon de thé et d'y apporter des nouvelles technologies.
 					Par exemple, il a été mentionné l'installation d'un panneau solaire accompagné d'un générateur permettant d'amener de l'électricité dans les serres.
 					De plus, la mention d'intégrer des tablettes pour permettre aux visiteurs de commander ainsi que de se renseigner sur les différents types de plantes présentes dans le jardin du château, sur l'histoire du château et du jardin, pouvoir consulter les différents réseaux sociaux du château. Ces tablettes peuvent aussi permettre aux plus jeunes visiteurs d'avoir accès à certains contenu de loisir afin de les occuper pendant l'attente de leur commande.
@@ -417,10 +431,10 @@ presentation
 		  		<hr>
 					<h2 id="orangerie">LA PRÉSENCE DE L'ORANGERIE, UN PLUS</h2>
 		  		<br>
-					<img src="image/diapo/chateauface.png" alt="" height=500 width=1000/>
+					<img src="image/diapo/chateauface.png" alt="" height=50% width=100%/>
 					<br>
 					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Pour amener plus de visiteurs au Château de Champs-sur-Marne, différentes modifications ont été envisagées.
 					Tout d'abord, l'orangerie située en face des serres serait utilisée comme un moyen d'attraction touristique. Par exemple, elle pourrait accueillir des expositions sur l'histoire du Château ou des représentations historiques délivrées par le Château. De plus, un partenariat avec le conservatoire de musique de la ville a été envisagé afin de produire des concerts au sein de l'orangerie.
 					Le salon de thé, ou les serres, jouerait ici un rôle important puisqu'il permettrait aux visiteurs de s'accorder une pause après ou avant un concert, pendant une exposition ,après une représentation, tout en leurs proposant des rafraîchissements ainsi qu'une ambiance tranquille, cosy. Le salon de thé permettrait de fidéliser les visiteurs au château et les amènera à le visiter plus souvent.
@@ -433,10 +447,10 @@ presentation
 				<hr>
 				<H2 id="vieromantique">UN PROJET SIMILAIRE DÉJÀ RÉALISÉ</H2>
 				<br>
-				<img src="image/vieromantique.jpg" alt="" height=500 width=1000/>
+				<img src="image/vieromantique.jpg" alt="" height=50% width=100%/>
 				<br>
 				<br>
-				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 				<i>Photo:
 				Créateur : Pierre ANTOINE
 				Droits d'auteur : Pierre ANTOINE</i><br>
@@ -503,11 +517,11 @@ define("avis_contenu", <<<avis
 	<hr>
 	<h2 id="questionnaire">QUESTIONNAIRE SUR LE SALON DE THÉ</h2>
 	<br>
-	<img src="image/chateau1.png" alt="" height=500 width=1000/>
+	<img src="image/chateau1.png" alt="" height=50% width=100%/>
 	<br>
 	<br>
-	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width="950" height="1100" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=50% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 	</td></table>
 <br>
 <br>
@@ -516,10 +530,10 @@ define("avis_contenu", <<<avis
 	<hr>
 	<h2 id="commentaire">LAISSEZ UN COMMENTAIRE</h2>
 	<br>
-	<img src="image/serre.jpg" alt="" height=500 width=1000/>
+	<img src="image/serre.jpg" alt="" height=50% width=100%/>
 	<br>
 	<br>
-	<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 
 	</td></table>
 

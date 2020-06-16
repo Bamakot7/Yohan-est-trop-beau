@@ -3,9 +3,9 @@
 	if (isset($_SESSION) && isset($_SESSION["mail"])) {
 		require('PHP/entete_co.php');
 	}else{
-		require 'PHP/entete.php'; 
+		require 'PHP/entete.php';
 	}
 	echo accueil_contenu;
-	$bas = '-100%'; 
+	$bas = '-200%'; 
  	require 'PHP/bas_page.php';
 ?>
