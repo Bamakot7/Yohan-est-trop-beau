@@ -17,6 +17,10 @@
 	define("message","<a href=message.php?lang=en>Message</a>");
 	define("gestionCompte","<a href=membreAdmin.php?lang=en>Members</a>");
 
+
+//Pied de page
+
+	define("mentionLegale","<a href=mentions.php?lang=en>Mentions Légales</a>");
 //contenu accueil
 define("accueil_contenu",<<<accueil
 

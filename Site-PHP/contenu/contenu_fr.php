@@ -15,6 +15,8 @@ define("monCompte", "<a href=membre.php?lang=fr>Mon compte</a>");
 define("deco","<a href=PHP/deco.php?lang=fr>Déconnexion</a>");
 define("message","<a href=message.php?lang=fr>Messages</a>");
 define("gestionCompte","<a href=membreAdmin.php?lang=fr>Membres</a>");
+//Pied de page
+define("mentionLegale","<a href=mentions.php?lang=fr>Mentions Légales</a>");
 
 //contenu accueil
 define("accueil_contenu", <<<accueil
