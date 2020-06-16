@@ -393,7 +393,7 @@ projet
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						<img src="image/frise.jpg" alt="" height=500 width=1000/>
+						<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcJJFBqRigXl13ezxOG7fCApu8wlU9vEIaet0RZ_PtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 						</td></table>
 					<br>
 					<br>
