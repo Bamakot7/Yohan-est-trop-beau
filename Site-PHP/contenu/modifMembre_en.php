@@ -25,7 +25,7 @@
 
 <form action="" method="post">
     <div class="membreTable">
-        <center><h3 style="color: white">Compte de <?= $mail ?>:</h3></center>
+        <center><h3 style="color: white">Account of <?= $mail ?>:</h3></center>
         <table>
             <tr>
                 <td>Mail</td><td><input type="text" value=<?= "\"".$mail."\""?> name="newMail"></td>
