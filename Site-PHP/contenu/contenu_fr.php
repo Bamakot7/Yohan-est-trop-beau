@@ -441,7 +441,7 @@ presentation
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-					Les étudiants ont proposés différents idées afin de développer le projet du salon de thé et d'y apporter des nouvelles technologies.
+					Les étudiants ont proposés différentes idées afin de développer le projet du salon de thé et d'y apporter des nouvelles technologies.
 					Par exemple, il a été mentionné l'installation d'un panneau solaire accompagné d'un générateur permettant d'amener de l'électricité dans les serres.
 					De plus, la mention d'intégrer des tablettes pour permettre aux visiteurs de commander ainsi que de se renseigner sur les différents types de plantes présentes dans le jardin du château, sur l'histoire du château et du jardin, pouvoir consulter les différents réseaux sociaux du château. Ces tablettes peuvent aussi permettre aux plus jeunes visiteurs d'avoir accès à certains contenu de loisir afin de les occuper pendant l'attente de leur commande.
 					Toutes ces nouvelles technologies auront pour but d'amener les visiteurs étant simplement venus pour le salon de thé à pousser leur visite vers une visite du château, se qui permettrait de mieux faire connaitre le château de Champs-sur-Marne et ainsi faire venir plus de monde dans la région de Champs-sur-Marne.
@@ -539,20 +539,21 @@ define("mentions_contenu", <<<mentions
 	<hr>
 	<br>
 	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-Hébergeur : Université Gustave Eiffel IUT - 2 Rue Albert Einstein, 77420 Champs-sur-Marne<br><br>
-E-mail : <b>webmaster-iut@univ-mlv.fr</b><br><br>
-Site Web : <b><a style="color:#ea5c0d;"href=www.iut.u-pem.fr>www.iut.u-pem.fr</a></b><br><br>
-Tél : 01.60.95.85.85<br><br>
-Fax : 01.60.95.85.55<br><br>
-Charte graphique : Médiation Culturelle et Numérique (MCN)<br><br>
-Développement du site : ASTIER Yohan & FERNANDES Maryline<br><br>
+(réglementées par la Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique)<br>
+Hébergeur: Université Gustave Eiffel IUT - 2 Rue Albert Einstein, 77420 Champs-sur-Marne<br><br>
+E-mail: <b>webmaster-iut@univ-mlv.fr</b><br><br>
+Site Web: <b><a style="color:#ea5c0d;"href=www.iut.u-pem.fr>www.iut.u-pem.fr</a></b><br><br>
+Tél: 01.60.95.85.85<br><br>
+Fax: 01.60.95.85.55<br><br>
+Charte graphique: Médiation Culturelle et Numérique (MCN)<br><br>
+Développement du site: ASTIER Yohan & FERNANDES Maryline<br><br>
 Contact: edgar.amberg@gmail.com,marylinefernandes18@gmail.com , Yohan.Astier@gmail.com , cleisbg@gmail.com & maiissaa.mld@gmail.com<br><br>
 	</td></table>
 	<br><br><br>
 	<hr>
 	<h2 style="color:#ea5c0d;">RESPONSABILITÉ</h2>
 	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-	<p>Le propriétaire assure seul la responsabilité des informations et des prestations fournies.  Cependant, il s’efforce d’assurer au mieux de ses possibilités, l’exactitude et la mise à jour des informations diffusées sur ce site, dont ll se réserve le droit de corriger, à tout moment et sans préavis, le contenu.  Aussi, elle avertit le visiteur qu’il lui appartient de vérifier l’information par d’autres moyens.
+	<p>Le propriétaire assure seul la responsabilité des informations et des prestations fournies.  Cependant, il s’efforce d’assurer au mieux de ses possibilités, l’exactitude et la mise à jour des informations diffusées sur ce site, dont il se réserve le droit de corriger, à tout moment et sans préavis, le contenu.  Aussi, elle avertit le visiteur qu’il lui appartient de vérifier l’information par d’autres moyens.
 	<br><br>En conséquence, le propriétaire décline toute responsabilité : pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site ; pour tous dommages résultant d’une intrusion frauduleuse d’un tiers ayant entraîné une modification des informations mises à la disposition sur le site ; et plus généralement pour tous dommages, directs ou indirects, qu’elles qu’en soient les causes, origines, nature ou conséquences, provoqués  à raison de l’accès de quiconque au site ou de l’impossibilité d’y accéder, de même que l’utilisation du site et/ou du crédit accordé à une quelconque information provenant directement ou indirectement de ce dernier. Par ailleurs, sauf mention contraire, les droits de propriété intellectuelle sur les documents contenus dans le site et chacun des éléments créés pour ce site sont la propriété exclusive du propriétaire ou de ses fournisseurs, ceux-ci ne concédant aucune licence, ni aucun droit que celui de consulter le site. La reproduction de tous documents publiés sur le site est seulement autorisée à des fins exclusives d’informations pour un usage personnel et privé, toute reproduction et toute utilisation de copies réalisées à d’autres fins étant expressément interdite. Toutes les marques citées dans ce site appartiennent à leurs compagnies respectives. Tous les produits, logos, et images cités dans les pages de ce site sont la propriété de leur marque respective.</p>
 	</td></table>
 	<br><br><br>
