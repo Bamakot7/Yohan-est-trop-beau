@@ -30,16 +30,15 @@ if ($_GET["lang"] === "fr") {
 					<?php echo menu; ?>
 						<div class="contenu">
 							<div><?php echo preparer_entete; ?> </a> </div>
-							<div><?php echo the_entete; ?></a></div>
 							<div><?php echo mecenat_entete; ?></div>
               <div><?php echo avis_entete; ?></div>
 
 						</div>
 					</div>
           <div class=" Rubrique">
-					Projet
+					<?php echo notreProjet; ?>
 						<div class="contenu">
-							<div>Présentation</div>
+							<div><?php echo presentation_entete; ?></div>
 							<div>Description</div>
 						</div>
 					</div>

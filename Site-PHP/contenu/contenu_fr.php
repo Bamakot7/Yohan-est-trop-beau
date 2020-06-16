@@ -2,9 +2,9 @@
 // entete
 define("accueil", "<a href=accueil.php?lang=fr>Accueil</a>");
 define("menu", "Menu");
+define("notreProjet", "Notre projet");
 define("preparer_entete", "<a href=preparer.php?lang=fr>Préparer sa visite</a>");
-define("projet_entete", "<a href=projet.php?lang=fr>Projet</a>");
-define("the_entete", "<a href=the.php?lang=fr>Le salon de thé</a>");
+define("presentation_entete", "<a href=presentation.php?lang=fr>Présentation</a>");
 define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
 define("avis_entete", "<a href=avis.php?lang=fr>Votre avis nous intéresse</a>");
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
@@ -222,7 +222,7 @@ prepare
 
 
 //contenu Notre projet
-	define("projet_contenu", <<<projet
+	define("presentation_contenu", <<<projet
 
 					<div class="titre">
 					<h1 id="Haut">NOTRE PROJET</h1><br>
@@ -262,12 +262,12 @@ prepare
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/biblio.jpg" alt="" height=200 width=400/>
+								<img src="image/diapo/serre.png" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
 							<td bgcolor=#ea5c0d height=100>
-								<a href="#Proposition"><center>Propositions des étudiants</center></a>
+								<a href="#serre"><center>Présentation de la serre</center></a>
 							</td>
 					</tr>
 					</table>
@@ -311,132 +311,58 @@ prepare
 
 
 				<hr>
-				<H2 id="Proposition">PROPOSITIONS DES ÉTUDIANTS</H2>
+				<H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
 				<br>
-				<img src="image/biblio.jpg" alt="" height=500 width=1000/>
+				<img src="image/diapo/serre.png" alt="" height=500 width=1000/>
 				<br>
 				<br>
+				<h3> Un lieu chargé d'histoire </h3>
 				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-				<p>Dans le but de moderniser ce projet, nous voulions proposer différentes nouvelles technologies que nous pourrions mettre en place dans le salon de thé.
-				Pour cela, nous avons procédé à une veille technologique, nous nous sommes inspirés de différentes technologies, déjà présentes dans certains salons de thé ou cafés, que nous pensons applicables dans ce salon.</p>
+				<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcJJFBqRigXl13ezxOG7fCApu8wlU9vEIaet0RZ_PtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+				</td></table>
+				<br><br>
+				<h3> Un lieu délaissé à rénover </h3>
+				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				Après des tempêtes qui l’ont abîmée et rendue impossible d’usage, cette serre fût délaissée. Le but de ce projet est donc de la rénover et de lui donner une seconde vie.<br>
+				En effet, par le biais de l’initiative “Les cafés du patrimoine”, la serre pourrait être rénovée à l’identique afin de conserver son architecture du XVIIIème siècle tout en la modernisant en la transformant en salon de thé.<br>
+				Sa rénovation permettra d’ajouter un lieu de halte dans le parc du château ce qui rendrait ce lieu plus attractif.
+				</td></table>
+				<br><br>
 
-				<p>Dans un premier temps, nous avons retenu des technologies ludiques, telles que l’impression d’un selfie sur la mousse d’une boisson ou l’installation d’un écran souple sur les tables pour que les clients puissent commander ou s’informer sur le château pour poursuivre leur visite.</p>
-
-				<p>Dans un second temps, nous avons pensé aux technologies pratiques, telles que l’installation d’un panneau solaire « plug and play » qui s’installe rapidement, il se branche directement sur une prise électrique. Cela permettrait d’apporter du courant dans la serre, de manière écologique. De plus, introduire le paiement mobile ou encore un robot qui livre les commandes ou une machine à thé intelligente pour de parfaites infusions pourrait augmenter l’attractivité du salon.</p>
-
-				<p>Ces différentes innovations pourraient donc offrir aux clients une expérience positive au sein du salon de thé.</p>
+				<h3> Un lieu nouveau </h3>
+				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				Le salon de thé aurait donc deux vocations principales:<br>
+				<br>
+				La première, proposer aux visiteurs de quoi se désaltérer par différentes boissons (de qualité plus ou moins élevées, allant du bon thé au soda) ainsi de quoi combler un petit creu: on pourrait ici imaginer des produits allant de la crêpe, au sandwich.<br>
+				<br>
+				La seconde, proposer aux visiteurs de quoi se reposer en mettant en place des chaises, bancs et autres meubles de plein air: les serres sont en effets situées dans un endroit du parc très fleuri l’été avec une grande surface libre.
+			<br>
 				</td></table>
 				<br><br>
 				<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
  </div>
-
 projet
 );
 
-//contenu salon the
-	define("the_contenu", <<<the
+/*<hr>
+ <H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
+ <br>
+ <img src="image/diapo/serre.png" alt="" height=500 width=1000/>
+ <br>
+ <br>
+ <table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+ <p>Dans le but de moderniser ce projet, nous voulions proposer différentes nouvelles technologies que nous pourrions mettre en place dans le salon de thé.
+ Pour cela, nous avons procédé à une veille technologique, nous nous sommes inspirés de différentes technologies, déjà présentes dans certains salons de thé ou cafés, que nous pensons applicables dans ce salon.</p>
 
-						<div class="titre">
-						<h1 id="Haut">LE SALON DE THÉ</h1><br>
-						</div>
+ <p>Dans un premier temps, nous avons retenu des technologies ludiques, telles que l’impression d’un selfie sur la mousse d’une boisson ou l’installation d’un écran souple sur les tables pour que les clients puissent commander ou s’informer sur le château pour poursuivre leur visite.</p>
 
-						<div class="cadreG">
-						<table border="0" cellspacing=0 cellpadding=0>
-							<tr>
-								<td>
-									<img src="image/chateau1.png" alt="" height=200 width=400/>
-								</td>
-							</tr>
-							<tr>
-								<td bgcolor=#ea5c0d height=100>
-									<a href="#exceptionnel"><center>Un lieu exceptionnel chargé d'histoire</center><a>
-								</td>
-						</tr>
-						</table>
-						</div>
+ <p>Dans un second temps, nous avons pensé aux technologies pratiques, telles que l’installation d’un panneau solaire « plug and play » qui s’installe rapidement, il se branche directement sur une prise électrique. Cela permettrait d’apporter du courant dans la serre, de manière écologique. De plus, introduire le paiement mobile ou encore un robot qui livre les commandes ou une machine à thé intelligente pour de parfaites infusions pourrait augmenter l’attractivité du salon.</p>
 
-						<div class="cadreM">
-						<table border="0" cellspacing=0 cellpadding=0>
-							<tr>
-								<td>
-									<img src="image/serre.jpg" alt="" height=200 width=400/>
-								</td>
-							</tr>
-							<tr>
-								<td bgcolor=#ea5c0d height=100>
-									<a href="#delaisse"><center>Un lieu délaissé à renover</center></a>
-								</td>
-						</tr>
-						</table>
-						</div>
-
-						<div class="cadreD">
-						<table border="0" cellspacing=0 cellpadding=0>
-							<tr>
-								<td>
-									<img src="image/the.jpg" alt="" height=200 width=400/>
-								</td>
-							</tr>
-							<tr>
-								<td bgcolor=#ea5c0d height=100>
-									<a href="#nouveau"><center>Un lieu nouveau</center></a>
-								</td>
-						</tr>
-						</table>
-						</div>
-
-					  <div class="intro">
-						<hr>
-						<h2 id="exceptionnel">UN LIEU EXCEPTIONNEL CHARGÉ D'HISTOIRE</h2>
-			  		<br>
-						<img src="image/chateau1.png" alt="" height=500 width=1000/>
-						<br>
-						<br>
-						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcJJFBqRigXl13ezxOG7fCApu8wlU9vEIaet0RZ_PtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-						</td></table>
-					<br>
-					<br>
-					<br>
-
-			  		<hr>
-						<h2 id="delaisse">UN LIEU DÉLAISSÉ À RÉNOVER</h2>
-			  		<br>
-						<img src="image/serre.jpg" alt="" height=500 width=1000/>
-						<br>
-						<br>
-						<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
-						Après des tempêtes qui l’ont abîmée et rendue impossible d’usage, cette serre fût délaissée. Le but de ce projet est donc de la rénover et de lui donner une seconde vie.<br>
-					  En effet, par le biais de l’initiative “Les cafés du patrimoine”, la serre pourrait être rénovée à l’identique afin de conserver son architecture du XVIIIème siècle tout en la modernisant en la transformant en salon de thé.<br>
-						Sa rénovation permettra d’ajouter un lieu de halte dans le parc du château ce qui rendrait ce lieu plus attractif.
-						</table>
-					<br>
-					<br>
-					<br>
-
-
-					<hr>
-					<H2 id="nouveau">UN LIEU NOUVEAU</H2>
-					<br>
-					<img src="image/the.jpg" alt="" width=1000 height=500/>
-					<br>
-					<br>
-					<table border="1" cellpadding="8" cellspacing="0" width=1000>
-					<td>
-					Le salon de thé aurait donc deux vocations principales:<br>
-					<br>
-					La première, proposer aux visiteurs de quoi se désaltérer par différentes boissons (de qualité plus ou moins élevées, allant du bon thé au soda) ainsi de quoi combler un petit creu: on pourrait ici imaginer des produits allant de la crêpe, au sandwich.<br>
-					<br>
-					La seconde, proposer aux visiteurs de quoi se reposer en mettant en place des chaises, bancs et autres meubles de plein air: les serres sont en effets situées dans un endroit du parc très fleuri l’été avec une grande surface libre.
-				<br>
-					</td>
-					</table>
-
-					<br><br>
-					<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
-	 </div>
-the
-);
+ <p>Ces différentes innovations pourraient donc offrir aux clients une expérience positive au sein du salon de thé.</p>
+ </td></table>
+ <br><br>
+ <a href="#Haut"><i><u>Retour en haut de page</i></u></a>
+</div>*/
 
 define("savoir_contenu", <<<savoir
 	<div class="savoir"><h1><u><center>EN SAVOIR PLUS :</center></u></h1>
@@ -516,5 +442,6 @@ define("avis_contenu", <<<avis
 
 avis
 );
+
 
 ?>
