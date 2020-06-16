@@ -179,7 +179,7 @@ define("prepare_contenu", <<<prepare
 						<h2 id="decouvrir">DÉCOUVRIR LE CHÂTEAU</h2>
 			  		<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-						<iframe src="https://player.vimeo.com/video/336189401" height=50% width=100% frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
+						<iframe src="https://player.vimeo.com/video/336189401" height=300% width=100% frameborder="0" title="Rallye Champs [Application mobile]"></iframe>
 						</td></table>
 						<br>
 						<br>
@@ -521,7 +521,7 @@ define("avis_contenu", <<<avis
 	<br>
 	<br>
 	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=50% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=300% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 	</td></table>
 <br>
 <br>

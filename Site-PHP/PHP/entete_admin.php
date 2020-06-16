@@ -21,7 +21,7 @@ if ($_GET["lang"] === "fr") {
 	<title><?php echo basename($_SERVER['PHP_SELF']); ?></title>
 </head>
 <body>
-		<img src="image/chateau.png" class="fondchateau">
+		<img src="image/diapo/chateauface.png" class="fondchateau">
 		<div class="BarreNavig">
 				<div class="Rubrique"><?php echo gestionCompte; ?></div>
 				<div class="Rubrique"><?php echo deco; ?></div>
