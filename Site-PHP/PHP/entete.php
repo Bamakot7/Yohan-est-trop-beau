@@ -39,7 +39,7 @@ if ($_GET["lang"] === "fr") {
 					<?php echo notreProjet; ?>
 						<div class="contenu">
 							<div><?php echo presentation_entete; ?></div>
-							<div>Description</div>
+							<div><?php echo description_entete; ?></div>
 						</div>
 					</div>
 					<div class=" Rubrique">

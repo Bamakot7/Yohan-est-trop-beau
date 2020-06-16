@@ -5,6 +5,7 @@ define("menu", "Menu");
 define("notreProjet", "Notre projet");
 define("preparer_entete", "<a href=preparer.php?lang=fr>Préparer sa visite</a>");
 define("presentation_entete", "<a href=presentation.php?lang=fr>Présentation</a>");
+define("description_entete", "<a href=description.php?lang=fr>Description</a>");
 define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
 define("avis_entete", "<a href=avis.php?lang=fr>Votre avis nous intéresse</a>");
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
@@ -221,11 +222,11 @@ prepare
 );
 
 
-//contenu Notre projet
-	define("presentation_contenu", <<<projet
+//contenu Notre projet onglet présentation
+	define("presentation_contenu", <<<presentation
 
 					<div class="titre">
-					<h1 id="Haut">NOTRE PROJET</h1><br>
+					<h1 id="Haut">PRÉSENTATION DE NOTRE PROJET</h1><br>
 					</div>
 
 					<div class="cadreG">
@@ -341,28 +342,115 @@ prepare
 				<br><br>
 				<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
  </div>
-projet
+presentation
 );
 
-/*<hr>
- <H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
- <br>
- <img src="image/diapo/serre.png" alt="" height=500 width=1000/>
- <br>
- <br>
- <table border="1" cellpadding="8" cellspacing="0" width=1000><td>
- <p>Dans le but de moderniser ce projet, nous voulions proposer différentes nouvelles technologies que nous pourrions mettre en place dans le salon de thé.
- Pour cela, nous avons procédé à une veille technologique, nous nous sommes inspirés de différentes technologies, déjà présentes dans certains salons de thé ou cafés, que nous pensons applicables dans ce salon.</p>
+//contenu Notre projet onglet description
+	define("description_contenu", <<<description
 
- <p>Dans un premier temps, nous avons retenu des technologies ludiques, telles que l’impression d’un selfie sur la mousse d’une boisson ou l’installation d’un écran souple sur les tables pour que les clients puissent commander ou s’informer sur le château pour poursuivre leur visite.</p>
+					<div class="titre">
+					<h1 id="Haut">DESCRIPTION DE NOTRE PROJET</h1><br>
+					</div>
 
- <p>Dans un second temps, nous avons pensé aux technologies pratiques, telles que l’installation d’un panneau solaire « plug and play » qui s’installe rapidement, il se branche directement sur une prise électrique. Cela permettrait d’apporter du courant dans la serre, de manière écologique. De plus, introduire le paiement mobile ou encore un robot qui livre les commandes ou une machine à thé intelligente pour de parfaites infusions pourrait augmenter l’attractivité du salon.</p>
+					<div class="cadreG">
+					<table border="0" cellspacing=0 cellpadding=0>
+						<tr>
+							<td>
+								<img src="image/biblio.jpg" alt="" height=200 width=400/>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor=#ea5c0d height=100>
+								<a href="#proposition"><center>Proposition des étudiants</center><a>
+							</td>
+					</tr>
+					</table>
+					</div>
 
- <p>Ces différentes innovations pourraient donc offrir aux clients une expérience positive au sein du salon de thé.</p>
- </td></table>
- <br><br>
- <a href="#Haut"><i><u>Retour en haut de page</i></u></a>
-</div>*/
+					<div class="cadreM">
+					<table border="0" cellspacing=0 cellpadding=0>
+						<tr>
+							<td>
+								<img src="image/diapo/chateauface.png" alt="" height=200 width=400/>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor=#ea5c0d height=100>
+								<a href="#orangerie"><center>La présence de l'Orangerie, un plus</center></a>
+							</td>
+					</tr>
+					</table>
+					</div>
+
+					<div class="cadreD">
+					<table border="0" cellspacing=0 cellpadding=0>
+						<tr>
+							<td>
+								<img src="image/vieromantique.jpg" alt="" height=200 width=400/>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor=#ea5c0d height=100>
+								<a href="#vieromantique"><center>Un projet similaire déjà réalisé</center></a>
+							</td>
+					</tr>
+					</table>
+					</div>
+
+				  <div class="intro">
+					<hr>
+					<h2 id="proposition">PROPOSITION DES ÉTUDIANTS</h2>
+		  		<br>
+					<img src="image/biblio.jpg" alt="" height=500 width=1000/>
+					<br>
+					<br>
+					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					Les étudiants ont proposés différents idées afin de développer le projet du salon de thé et d'y apporter des nouvelles technologies.
+					Par exemple, il a été mentionné l'installation d'un panneau solaire accompagné d'un générateur permettant d'amener de l'électricité dans les serres.
+					De plus, la mention d'intégrer des tablettes pour permettre aux visiteurs de commander ainsi que de se renseigner sur les différents types de plantes présentes dans le jardin du château, sur l'histoire du château et du jardin, pouvoir consulter les différents réseaux sociaux du château. Ces tablettes peuvent aussi permettre aux plus jeunes visiteurs d'avoir accès à certains contenu de loisir afin de les occuper pendant l'attente de leur commande.
+					Toutes ces nouvelles technologies auront pour but d'amener les visiteurs étant simplement venus pour le salon de thé à pousser leur visite vers une visite du château, se qui permettrait de mieux faire connaitre le château de Champs-sur-Marne et ainsi faire venir plus de monde dans la région de Champs-sur-Marne.
+					</td></table>
+				<br>
+				<br>
+				<br>
+
+		  		<hr>
+					<h2 id="orangerie">LA PRÉSENCE DE L'ORANGERIE, UN PLUS</h2>
+		  		<br>
+					<img src="image/diapo/chateauface.png" alt="" height=500 width=1000/>
+					<br>
+					<br>
+					<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+					Pour amener plus de visiteurs au Château de Champs-sur-Marne, différentes modifications ont été envisagées.
+					Tout d'abord, l'orangerie située en face des serres serait utilisée comme un moyen d'attraction touristique. Par exemple, elle pourrait accueillir des expositions sur l'histoire du Château ou des représentations historiques délivrées par le Château. De plus, un partenariat avec le conservatoire de musique de la ville a été envisagé afin de produire des concerts au sein de l'orangerie.
+					Le salon de thé, ou les serres, jouerait ici un rôle important puisqu'il permettrait aux visiteurs de s'accorder une pause après ou avant un concert, pendant une exposition ,après une représentation, tout en leurs proposant des rafraîchissements ainsi qu'une ambiance tranquille, cosy. Le salon de thé permettrait de fidéliser les visiteurs au château et les amènera à le visiter plus souvent.
+					</td></table>
+				<br>
+				<br>
+				<br>
+
+
+				<hr>
+				<H2 id="vieromantique">UN PROJET SIMILAIRE DÉJÀ RÉALISÉ</H2>
+				<br>
+				<img src="image/vieromantique.jpg" alt="" height=500 width=1000/>
+				<br>
+				<br>
+				<table border="1" cellpadding="8" cellspacing="0" width=1000><td>
+				<i>Photo:
+				Créateur : Pierre ANTOINE
+				Droits d'auteur : Pierre ANTOINE</i><br>
+				Le château de Champs-sur-Marne ne serait pas le premier à embrasser la voix d'un salon de thé dans leur espace en extérieur. Le musée de la vie romantique
+				l'a déjà intégré à son site culturel. La fait que ce salon de thé dispose de son propre onglet sur leur site internet montre qu'il ne s'agit pas là d'un
+				gadget mais bien d'un atout permettant de rendre le site plus attractif. De plus le site propose aux futurs visiteurs la carte, ainsi que de quoi réserver
+				sa place pour un temps donné dans le salon de thé, promettant ainsi aux visiteurs une expérience améliorée. C'est l'exemple sur lequel le salon de thé du
+				Château voudrait se positionner.
+				</td></table>
+				<br><br>
+				<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
+ </div>
+description
+);
 
 define("savoir_contenu", <<<savoir
 	<div class="savoir"><h1><u><center>EN SAVOIR PLUS :</center></u></h1>
