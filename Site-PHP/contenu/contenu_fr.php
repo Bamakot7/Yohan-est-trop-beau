@@ -78,7 +78,7 @@ define("mecenat_contenu",<<<mecenat
 			<table border="0" cellspacing=0 cellpadding=0>
 				<tr>
 					<td>
-						<img src="image/chateau1.png" alt="" height=200 width=400/>
+						<img src="image/statue.jpg" alt="" height=200 width=400/>
 					</td>
 				</tr>
 				<tr>
@@ -93,7 +93,7 @@ define("mecenat_contenu",<<<mecenat
 			<table border="0" cellspacing=0 cellpadding=0>
 				<tr>
 					<td>
-						<img src="image/serre.jpg" alt="" height=200 width=400/>
+						<img src="image/serreeau.jpg" alt="" height=200 width=400/>
 					</td>
 				</tr>
 				<tr>
@@ -108,7 +108,7 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="entreprise">ENTREPRISES ET FONDATIONS</h2>
 			<br>
-			<img src="image/chateau1.png" alt="" height=35% width=100%/>
+			<img src="image/statue.jpg" alt="" height=35% width=100%/>
 			<br>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -123,7 +123,7 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="particuliers">PARTICULIERS</h2>
 			<br>
-			<img src="image/serre.jpg" alt="" height=35% width=100%/>
+			<img src="image/serreeau.jpg" alt="" height=35% width=100%/>
 			<br>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -166,7 +166,7 @@ define("prepare_contenu", <<<prepare
 						<table border="0" cellspacing=0 cellpadding=0>
 							<tr>
 								<td>
-									<img src="image/jardin.jpg" alt="" height=200 width=400/>
+									<img src="image/jardin1.jpg" alt="" height=200 width=400/>
 								</td>
 							</tr>
 							<tr>
@@ -181,7 +181,7 @@ define("prepare_contenu", <<<prepare
 						<table border="0" cellspacing=0 cellpadding=0>
 							<tr>
 								<td>
-									<img src="image/chateau1.png" alt="" height=200 width=400/>
+									<img src="image/chateauface.png" alt="" height=200 width=400/>
 								</td>
 							</tr>
 							<tr>
@@ -211,7 +211,7 @@ define("prepare_contenu", <<<prepare
 			  		<hr>
 						<h2 id="horaires">HORAIRES ET ACCÈS</h2>
 			  		<br>
-						<img src="image/jardin.jpg" alt="" height=35% width=100%/>
+						<img src="image/jardin1.jpg" alt="" height=35% width=100%/>
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -242,7 +242,7 @@ define("prepare_contenu", <<<prepare
 					<hr>
 					<H2 id="tarifs">TARIFS</H2>
 					<br>
-					<img src="image/chateau1.png" alt="" height=35% width=100%/>
+					<img src="image/chateauface.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -269,7 +269,7 @@ prepare
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/chateau1.png" alt="" height=200 width=400/>
+								<img src="image/chateauloin.png" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
@@ -284,7 +284,7 @@ prepare
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/ordi.jpg" alt="" height=200 width=400/>
+								<img src="image/chateauface.png" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
@@ -299,7 +299,7 @@ prepare
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/diapo/serre.png" alt="" height=200 width=400/>
+								<img src="image/serre.png" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
@@ -314,7 +314,7 @@ prepare
 					<hr>
 					<h2 id="Projet">UN PROJET SUR LE PATRIMOINE</h2>
 		  		<br>
-					<img src="image/chateau1.png" alt="" height=35% width=100%/>
+					<img src="image/chateauloin.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -334,7 +334,7 @@ prepare
 		  		<hr>
 					<h2 id="Conception">CONCEPTION D'UN SUPPORT DE COMMUNICATION</h2>
 		  		<br>
-					<img src="image/ordi.jpg" alt="" height=35% width=100%/>
+					<img src="image/chateauface.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -350,7 +350,7 @@ prepare
 				<hr>
 				<H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
 				<br>
-				<img src="image/diapo/serre.png" alt="" height=35% width=100%/>
+				<img src="image/serre.png" alt="" height=35% width=100%/>
 				<br>
 				<br>
 				<h3> Un lieu chargé d'histoire </h3>
@@ -392,7 +392,7 @@ presentation
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/biblio.jpg" alt="" height=200 width=400/>
+								<img src="image/cabinet.jpg" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
@@ -407,7 +407,7 @@ presentation
 					<table border="0" cellspacing=0 cellpadding=0>
 						<tr>
 							<td>
-								<img src="image/diapo/chateauface.png" alt="" height=200 width=400/>
+								<img src="image/orangerie.jpg" alt="" height=200 width=400/>
 							</td>
 						</tr>
 						<tr>
@@ -437,7 +437,7 @@ presentation
 					<hr>
 					<h2 id="proposition">PROPOSITION DES ÉTUDIANTS</h2>
 		  		<br>
-					<img src="image/biblio.jpg" alt="" height=35% width=100%/>
+					<img src="image/cabinet.jpg" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -453,7 +453,7 @@ presentation
 		  		<hr>
 					<h2 id="orangerie">LA PRÉSENCE DE L'ORANGERIE, UN PLUS</h2>
 		  		<br>
-					<img src="image/diapo/chateauface.png" alt="" height=35% width=100%/>
+					<img src="image/orangerie.jpg" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
