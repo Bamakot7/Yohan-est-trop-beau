@@ -42,11 +42,10 @@
         //On regarde si les mots de passe entrés sont corrects
         if ($_POST["Psw"] === $_SESSION['mdp']) {
             if ($_POST["newPsw"] === $_POST["confirmPsw"]) {
-                $query = 'UPDATE user SET MotDePasse = :newPsw WHERE num = :num';
+                $query = 'DELETE FROM `user` WHERE num = :num';
                 $pswStatement = $dbh->prepare($query);
                 $pswStatement->execute(  
                     array(  
-                        'newPsw'       =>     $_POST['newPsw'],
                         'num'           =>     $num,
                     )
                 );
@@ -67,6 +66,20 @@
         }
     }
 
+    //On verifie si une modif a été apportée
+    if (isset($_POST['Envoyer'])) {
+        if ($_POST['Envoyer'] == "del") {
+            $query = 'UPDATE user SET MotDePasse = :newPsw WHERE num = :num';
+                $pswStatement = $dbh->prepare($query);
+                $pswStatement->execute(  
+                    array(  
+                        'newPsw'        =>     $_POST['newPsw'],
+                        'num'           =>     $num,
+                    )
+                );
+        }
+    }
+
     require('PHP/entete_co.php');
 
     if ($_GET['lang'] == 'fr') {
@@ -77,3 +90,5 @@
 
 
 ?>
+
+
