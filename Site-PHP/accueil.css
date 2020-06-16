@@ -172,6 +172,17 @@ a{
   text-align: justify;
 }
 
+.onglet{
+  left: 80%;
+  color: white;
+  top: 85%;
+  height: auto;
+  width: 20%;
+  font-size: 18px;
+  position: absolute;
+  text-align: justify;
+}
+
 .savoir{
   left: 25%;
   color: white;

@@ -50,6 +50,22 @@ define("accueil_contenu", <<<accueil
 		</div>
 
 		<div class='onglet'>
+		<hr>
+		<h3 style="color:#ea5c0d;">Votre avis nous intéresse</h3>
+		<br>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		Répondez <b><a href=avis.php>ici</a></b> à un questionnaire sur la création d'un salon de thé au Château de Champs-sur-Marne.
+		</td></table>
+		<br><br><br>
+		<hr>
+		<h3 style="color:#ea5c0d;">Laissez un commentaire</h3>
+		<br>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		Connectez-vous à votre espace <b><a href=connexion_fr.php>ici</a></b> ou inscrivez-vous <b><a href=inscription.php>ici</a></b> pour nous laisser un message.
+		</td></table>
+		</div>
+
+
 accueil
 );
 
@@ -497,62 +513,14 @@ savoir
 define("avis_contenu", <<<avis
 	<div class="titre"><h1 id="Haut">VOTRE AVIS</h1><br></div>
 
-	<div class="cadreGm">
-	<table border="0" cellspacing=0 cellpadding=0>
-		<tr>
-			<td>
-				<img src="image/chateau1.png" alt="" height=200 width=400/>
-			</td>
-		</tr>
-		<tr>
-			<td bgcolor=#ea5c0d height=100>
-				<a href="#questionnaire"><center>Questionnaire sur le salon de thé</center></a>
-			</td>
-	</tr>
-	</table>
-	</div>
-
-	<div class="cadreDm">
-	<table border="0" cellspacing=0 cellpadding=0>
-		<tr>
-			<td>
-				<img src="image/serre.jpg" alt="" height=200 width=400/>
-			</td>
-		</tr>
-		<tr>
-			<td bgcolor=#ea5c0d height=100>
-				<a href="#commentaire"><center>Laissez un commentaire</center></a>
-			</td>
-	</tr>
-	</table>
-	</div>
-
-	<div class="intro">
+	<div class="accueil">
 	<hr>
 	<h2 id="questionnaire">QUESTIONNAIRE SUR LE SALON DE THÉ</h2>
 	<br>
-	<img src="image/chateau1.png" alt="" height=50% width=100%/>
-	<br>
-	<br>
 	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=300% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
-	</td></table>
-<br>
-<br>
-<br>
-
-	<hr>
-	<h2 id="commentaire">LAISSEZ UN COMMENTAIRE</h2>
-	<br>
-	<img src="image/serre.jpg" alt="" height=50% width=100%/>
-	<br>
-	<br>
-	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=800% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 	</td></table>
 
-	<br><br>
-	<a href="#Haut"><i><u>Retour en haut de page</i></u></a>
 	</div>
 
 
