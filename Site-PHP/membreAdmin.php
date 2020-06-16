@@ -66,11 +66,15 @@
         }
         if ($_GET['lang'] == 'fr') {
             require('contenu/modifMembre_fr.php');
+        }else{
+            require('contenu/modifMembre_en.php');
         } 
     }else{
         if ($_GET['lang'] == 'fr') {
             require('contenu/membre_Adminfr.php');
-        } 
+        }else{
+            require('contenu/membre_Adminen.php');
+        }  
     }
     
 ?>
