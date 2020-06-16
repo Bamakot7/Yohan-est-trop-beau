@@ -531,5 +531,61 @@ define("avis_contenu", <<<avis
 avis
 );
 
+//contenu mentions
+define("mentions_contenu", <<<mentions
+	<div class="titre"><h1 id="Haut">MENTION LÉGALES</h1><br></div>
+
+	<div class="accueil">
+	<hr>
+	<br>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+Hébergeur : Université Gustave Eiffel IUT - 2 Rue Albert Einstein, 77420 Champs-sur-Marne<br><br>
+E-mail : <b>webmaster-iut@univ-mlv.fr</b><br><br>
+Site Web : <b><a style="color:#ea5c0d;"href=www.iut.u-pem.fr>www.iut.u-pem.fr</a></b><br><br>
+Tél : 01.60.95.85.85<br><br>
+Fax : 01.60.95.85.55<br><br>
+Charte graphique : Médiation Culturelle et Numérique (MCN)<br><br>
+Développement du site : ASTIER Yohan & FERNANDES Maryline<br><br>
+Contact: edgar.amberg@gmail.com,marylinefernandes18@gmail.com , Yohan.Astier@gmail.com , cleisbg@gmail.com & maiissaa.mld@gmail.com<br><br>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">RESPONSABILITÉ</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<p>Le propriétaire assure seul la responsabilité des informations et des prestations fournies.  Cependant, il s’efforce d’assurer au mieux de ses possibilités, l’exactitude et la mise à jour des informations diffusées sur ce site, dont ll se réserve le droit de corriger, à tout moment et sans préavis, le contenu.  Aussi, elle avertit le visiteur qu’il lui appartient de vérifier l’information par d’autres moyens.
+	<br><br>En conséquence, le propriétaire décline toute responsabilité : pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site ; pour tous dommages résultant d’une intrusion frauduleuse d’un tiers ayant entraîné une modification des informations mises à la disposition sur le site ; et plus généralement pour tous dommages, directs ou indirects, qu’elles qu’en soient les causes, origines, nature ou conséquences, provoqués  à raison de l’accès de quiconque au site ou de l’impossibilité d’y accéder, de même que l’utilisation du site et/ou du crédit accordé à une quelconque information provenant directement ou indirectement de ce dernier. Par ailleurs, sauf mention contraire, les droits de propriété intellectuelle sur les documents contenus dans le site et chacun des éléments créés pour ce site sont la propriété exclusive du propriétaire ou de ses fournisseurs, ceux-ci ne concédant aucune licence, ni aucun droit que celui de consulter le site. La reproduction de tous documents publiés sur le site est seulement autorisée à des fins exclusives d’informations pour un usage personnel et privé, toute reproduction et toute utilisation de copies réalisées à d’autres fins étant expressément interdite. Toutes les marques citées dans ce site appartiennent à leurs compagnies respectives. Tous les produits, logos, et images cités dans les pages de ce site sont la propriété de leur marque respective.</p>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">DROITS D'AUTEUR</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<p>L’ensemble de ce site relève de la législation française et internationale sur le droit d’auteur et la propriété intellectuelle. Toute représentation, reproduction, modification, utilisation commerciale, ainsi que tout transfert vers un autre site sont interdits, sauf autorisation à demander par courrier à l’adresse indiquée plus haut (adresse mail du chef de projet). Seule une utilisation à des fins strictement personnelle est autorisée.</p>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">TRAITEMENT DES DONNÉES PERSONNELLES</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<p>Les informations que le propriétaire sera amenée à recueillir proviennent de l’enregistrement volontaire d’une adresse courriel fournie par l’internaute, lui permettant de recevoir une documentation, de se renseigner sur un point quelconque. Ces informations ne sont jamais communiquées à des tiers.</p>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">LIENS HYPERTEXTE</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<p>Les liens hypertextes présents sur le site orientant les utilisateurs vers d’autres sites Internet n’engagent pas la responsabilité du propriétaire quant au contenu de ces sites. Toute personne physique ou morale souhaitant que soit établi un lien avec notre site, doit préalablement en demander l’autorisation.</p>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">LOI INFORMATIQUE ET LIBERTÉ</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<p>En application de la loi n° 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, vous disposez des droits d’opposition (art.26 de la loi), d’accès (art.34 à 38 de la loi), et de rectification (art.34 de la loi «  Informatique et Liberté  » du 6 janvier 1978) des données vous concernant. Vous pouvez exiger sur simple demande au  webmaster que soient rectifiées, complétées, clarifiées, mises à jour ou effacées les informations vous concernant qui sont inexactes, incomplètes, équivoques, périmées ou dont la collecte ou l’utilisation, la communication ou la conservation est interdite.
+</p>
+	</td></table>
+
+	</div>
+
+
+mentions
+);
+
 
 ?>
