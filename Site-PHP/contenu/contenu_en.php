@@ -11,7 +11,7 @@
 	define("avis_entete", "<a href=avis.php?lang=en>We are interested in your opinion</a>");
 	define("connexion_entete", "<a href=connexion_en.php?lang=en>Connexion</a>");
 	define("inscription_entete", "<a href=inscription_en.php?lang=en>Register</a>");
-	define("quisommesnous_entete", "<a href=savoir.php?lang=en>More about it</a>");
+	define("quisommesnous_entete", "<a href=savoir.php?lang=en>About us</a>");
 	define("monCompte", "<a href=membre.php?lang=en>My account</a>");
 	define("deco","<a href=PHP/deco.php?lang=en>Logout</a>");
 	define("message","<a href=message.php?lang=en>Message</a>");
@@ -492,7 +492,30 @@ avis
 );
 
 //En savoir plus contenu
+define("savoir_contenu", <<<savoir
+	<div class='titre'><h1 id='Haut'>ABOUT US</h1><br></div>
+		<div class="accueil">
+		<hr><br>
+		<h2>Présentation</h2>
+		<br><br>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		<p>In order to achieve our goals we have had several resources available, divided into categories. The first is the educational category, including all the resources made available by our IUT and the educational team, whether advice, instructions or materials. A posteriori we have a set of personal resources such as our digital devices allowing us to program the site, to take pictures or to search for information.</p>
+		</td></table>
+		<br><br><br>
+		<hr><br>
+		<h2>Notre équipe</h2>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		For this project we formed a group of 5 students in computer science at the University of Champs-sur-Marnes where we proceeded to a distribution of tasks:</p><br>
+		Project manager: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
+		Research and documentation/content: Maisa MILADI<br><img src="image/maisa.png" alt=""/><br><br>
+		Head of internal/external communication: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
+		Developer: Yohan ASTIER<br><img src="image/yohan.png" alt=""/><br><br>
+		Developer: Maryline FERNANDES<br><img src="image/maryline.png" alt=""/><br><br>
+		</td></table>
 
+		</div>
+savoir
+);
 
 //contenu mentions
 define("mentions_contenu", <<<mentions

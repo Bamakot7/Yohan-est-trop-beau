@@ -504,7 +504,7 @@ define("savoir_contenu", <<<savoir
 		Pour ce projet nous avons formé un groupe de 5 étudiants en DUT informatique à l’iut de Champs-sur-Marnes où nous avons procédé à une distribution des tâches :</p><br>
 		Chef de projet: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
 		Recherche et documentation/contenu: Maisa MILADI<br><img src="image/maisa.png" alt=""/><br><br>
-		Chargé de com interne/externe: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
+		Chargé de communication interne/externe: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
 		Développeur: Yohan ASTIER<br><img src="image/yohan.png" alt=""/><br><br>
 		Développeur: Maryline FERNANDES<br><img src="image/maryline.png" alt=""/><br><br>
 		</td></table>
