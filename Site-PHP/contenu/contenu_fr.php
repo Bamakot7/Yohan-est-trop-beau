@@ -6,7 +6,7 @@ define("notreProjet", "Notre projet");
 define("preparer_entete", "<a href=preparer.php?lang=fr>Préparer sa visite</a>");
 define("presentation_entete", "<a href=presentation.php?lang=fr>Présentation</a>");
 define("description_entete", "<a href=description.php?lang=fr>Description</a>");
-define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mecenat</a>");
+define("mecenat_entete", "<a href=mecenat.php?lang=fr>Mécénat</a>");
 define("avis_entete", "<a href=avis.php?lang=fr>Votre avis nous intéresse</a>");
 define("quisommesnous_entete", "<a href=savoir.php?lang=fr>Qui sommes-nous?</a>");
 define("connexion_entete", "<a href=connexion_fr.php?lang=fr>Connexion</a>");
@@ -36,7 +36,7 @@ define("accueil_contenu", <<<accueil
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 			"Le château de Champs-sur-Marne est caractéristique des maisons de plaisance du XVIIIème siècle bâties à la campagne, permettant un nouvel art de vivre.  Construit de 1703 à 1708 par les architectes Pierre Bullet et Jean-Baptiste Bullet de Chamblain, à la demande du financier de Louis XIV, Paul Poisson de Bourvallais. Le château présente  de somptueux décors rocaille, ainsi que des décors de chinoiseries peintes au milieu du XVIIIème siècle par Christophe Huet."
-			-<a href=http://www.chateau-champs-sur-marne.fr><i>Site du Château de Champs-sur-Marne</i></a>
+			<br><br>-<a href=http://www.chateau-champs-sur-marne.fr><i>Site du Château de Champs-sur-Marne</i></a>
 			</td></table>
 			<br>
 			<br>
@@ -108,7 +108,7 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="entreprise">ENTREPRISES ET FONDATIONS</h2>
 			<br>
-			<img src="image/chateau1.png" alt="" height=50% width=100%/>
+			<img src="image/chateau1.png" alt="" height=35% width=100%/>
 			<br>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -123,7 +123,7 @@ define("mecenat_contenu",<<<mecenat
 			<hr>
 			<h2 id="particuliers">PARTICULIERS</h2>
 			<br>
-			<img src="image/serre.jpg" alt="" height=50% width=100%/>
+			<img src="image/serre.jpg" alt="" height=35% width=100%/>
 			<br>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -211,11 +211,11 @@ define("prepare_contenu", <<<prepare
 			  		<hr>
 						<h2 id="horaires">HORAIRES ET ACCÈS</h2>
 			  		<br>
-						<img src="image/jardin.jpg" alt="" height=50% width=100%/>
+						<img src="image/jardin.jpg" alt="" height=35% width=100%/>
 						<br>
 						<br>
 						<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-						HORAIRES<br><br>
+						<b>HORAIRES</b><br><br>
 						Du 2 janvier au 26 mai<br>
 			      Ouvert tous les jours sauf le mardi 10.00-12.15 / 13.30-17.00<br>
 			          <br>
@@ -226,8 +226,12 @@ define("prepare_contenu", <<<prepare
 			      Ouvert tous les jours sauf le mardi 10.00-12.15 / 13.30-17.00
 						</td>
 						<td>
-						ACCÈS<br><br>
-						rerA blablablab
+						<b>ACCÈS</b><br><br><br>
+						En transport:<br><br>
+						RER A, descendre à Noisiel le Luzard puis prendre le bus n°220 ou bus n°100 direction Bry-sur-Marne, arrêt mairie de Champs ou 20 minutes à pied de la gare.<br><br>
+						En voiture:<br><br>
+						De Paris : A 4, sortie n°10 Champs, suivre le fléchage "château de Champs", 30 min de trajet. <br>
+						Provenance diverses : A4, sortie Noisiel suivre le fléchage<br><br>
 						</td>
 						</table>
 					<br>
@@ -238,7 +242,7 @@ define("prepare_contenu", <<<prepare
 					<hr>
 					<H2 id="tarifs">TARIFS</H2>
 					<br>
-					<img src="image/chateau1.png" alt="" height=50% width=100%/>
+					<img src="image/chateau1.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -310,7 +314,7 @@ prepare
 					<hr>
 					<h2 id="Projet">UN PROJET SUR LE PATRIMOINE</h2>
 		  		<br>
-					<img src="image/chateau1.png" alt="" height=50% width=100%/>
+					<img src="image/chateau1.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -330,7 +334,7 @@ prepare
 		  		<hr>
 					<h2 id="Conception">CONCEPTION D'UN SUPPORT DE COMMUNICATION</h2>
 		  		<br>
-					<img src="image/ordi.jpg" alt="" height=50% width=100%/>
+					<img src="image/ordi.jpg" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -346,7 +350,7 @@ prepare
 				<hr>
 				<H2 id="serre">PRÉSENTATION DE LA SERRE</H2>
 				<br>
-				<img src="image/diapo/serre.png" alt="" height=50% width=100%/>
+				<img src="image/diapo/serre.png" alt="" height=35% width=100%/>
 				<br>
 				<br>
 				<h3> Un lieu chargé d'histoire </h3>
@@ -433,7 +437,7 @@ presentation
 					<hr>
 					<h2 id="proposition">PROPOSITION DES ÉTUDIANTS</h2>
 		  		<br>
-					<img src="image/biblio.jpg" alt="" height=50% width=100%/>
+					<img src="image/biblio.jpg" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -449,7 +453,7 @@ presentation
 		  		<hr>
 					<h2 id="orangerie">LA PRÉSENCE DE L'ORANGERIE, UN PLUS</h2>
 		  		<br>
-					<img src="image/diapo/chateauface.png" alt="" height=50% width=100%/>
+					<img src="image/diapo/chateauface.png" alt="" height=35% width=100%/>
 					<br>
 					<br>
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
@@ -465,7 +469,7 @@ presentation
 				<hr>
 				<H2 id="vieromantique">UN PROJET SIMILAIRE DÉJÀ RÉALISÉ</H2>
 				<br>
-				<img src="image/vieromantique.jpg" alt="" height=50% width=100%/>
+				<img src="image/vieromantique.jpg" alt="" height=35% width=100%/>
 				<br>
 				<br>
 				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
