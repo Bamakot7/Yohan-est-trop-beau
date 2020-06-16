@@ -42,10 +42,11 @@
         //On regarde si les mots de passe entrés sont corrects
         if ($_POST["Psw"] === $_SESSION['mdp']) {
             if ($_POST["newPsw"] === $_POST["confirmPsw"]) {
-                $query = 'DELETE FROM `user` WHERE num = :num';
+                $query = 'UPDATE user SET MotDePasse = :newPsw WHERE num = :num';
                 $pswStatement = $dbh->prepare($query);
                 $pswStatement->execute(  
                     array(  
+                        'newPsw'       =>     $_POST['newPsw'],
                         'num'           =>     $num,
                     )
                 );
@@ -90,5 +91,3 @@
 
 
 ?>
-
-
