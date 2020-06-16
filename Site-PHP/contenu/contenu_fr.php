@@ -48,6 +48,8 @@ define("accueil_contenu", <<<accueil
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.241206540705!2d2.601900615624199!3d48.853610679286895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61020dc9a4367%3A0xc0ab72ed5661119f!2sCh%C3%A2teau%20de%20Champs-sur-Marne!5e0!3m2!1sfr!2sfr!4v1583078697028!5m2!1sfr!2sfr" width=100% height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</td></table>
 		</div>
+
+		<div class='onglet'>
 accueil
 );
 
@@ -467,15 +469,27 @@ description
 );
 
 define("savoir_contenu", <<<savoir
-	<div class="savoir"><h1><u><center>EN SAVOIR PLUS :</center></u></h1>
-				<p>Pour venir à bout de nos objectifs nous avons eu à disposition plusieurs ressources divisées par catégories. La première est la catégorie éducative, incluant l’ensemble des ressources mises à disposition par notre IUT et l’équipe éducative y travaillant, que ce soit les conseils, les consignes ou encore le matériel mis à disposition. A posteriori nous disposons d’un ensemble de ressources personnelles tels que nos appareils numériques nous permettant la programmation du site, la prise de photo ou encore la recherche d’informations.
-				Pour ce projet nous avons formé un groupe de 5 étudiants en DUT informatique à l’iut de Champs-sur-Marnes où nous avons procédé à une distribution des tâches :</p>
-				<br>
-				Chef de projet: Edgar AMBERG,<br>
-				Recherche et documentation/contenu: Maisa MILADI & Maryline FERNANDES,<br>
-				Chargé de com interne/externe: Cléis BENOIT-GONIN & Edgar AMBERG,<br>
-				Développeurs: Yohan ASTIER & Cléis BENOIT-GONIN,<br>
-				Designer: Maryline FERNANDES & Maisa MILADI.</div>
+	<div class='titre'><h1 id='Haut'>QUI SOMMES NOUS?</h1><br></div>
+		<div class="accueil">
+		<hr><br>
+		<h2>Présentation</h2>
+		<br><br>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		<p>Pour venir à bout de nos objectifs nous avons eu à disposition plusieurs ressources divisées par catégories. La première est la catégorie éducative, incluant l’ensemble des ressources mises à disposition par notre IUT et l’équipe éducative y travaillant, que ce soit les conseils, les consignes ou encore le matériel mis à disposition. A posteriori nous disposons d’un ensemble de ressources personnelles tels que nos appareils numériques nous permettant la programmation du site, la prise de photo ou encore la recherche d’informations.
+		</td></table>
+		<br><br><br>
+		<hr><br>
+		<h2>Notre équipe</h2>
+		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+		Pour ce projet nous avons formé un groupe de 5 étudiants en DUT informatique à l’iut de Champs-sur-Marnes où nous avons procédé à une distribution des tâches :</p><br>
+		Chef de projet: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
+		Recherche et documentation/contenu: Maisa MILADI<br><img src="image/maisa.png" alt=""/><br><br>
+		Chargé de com interne/externe: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
+		Développeur: Yohan ASTIER<br><img src="image/yohan.png" alt=""/><br><br>
+		Développeur: Maryline FERNANDES<br><img src="image/maryline.png" alt=""/><br><br>
+		</td></table>
+
+		</div>
 savoir
 );
 
