@@ -445,8 +445,8 @@ presentation
 					<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 					Les étudiants ont proposés différentes idées afin de développer le projet du salon de thé et d'y apporter des nouvelles technologies.
 					Par exemple, il a été mentionné l'installation d'un panneau solaire accompagné d'un générateur permettant d'amener de l'électricité dans les serres.
-					De plus, la mention d'intégrer des tablettes pour permettre aux visiteurs de commander ainsi que de se renseigner sur les différents types de plantes présentes dans le jardin du château, sur l'histoire du château et du jardin, pouvoir consulter les différents réseaux sociaux du château. Ces tablettes peuvent aussi permettre aux plus jeunes visiteurs d'avoir accès à certains contenu de loisir afin de les occuper pendant l'attente de leur commande.
-					Toutes ces nouvelles technologies auront pour but d'amener les visiteurs étant simplement venus pour le salon de thé à pousser leur visite vers une visite du château, se qui permettrait de mieux faire connaitre le château de Champs-sur-Marne et ainsi faire venir plus de monde dans la région de Champs-sur-Marne.
+					De plus, la mention d'intégrer des tablettes pour permettre aux visiteurs de commander ainsi que de se renseigner sur les différents types de plantes présentes dans le jardin du château, sur l'histoire du château et du jardin, pouvoir consulter les différents réseaux sociaux du château. Ces tablettes peuvent aussi permettre aux plus jeunes visiteurs d'avoir accès à certains contenus de loisir afin de les occuper pendant l'attente de leur commande.
+					Toutes ces nouvelles technologies auront pour but d'amener les visiteurs étant simplement venus pour le salon de thé à pousser leur visite vers une visite du château, ce qui permettrait de mieux faire connaitre le château de Champs-sur-Marne et ainsi faire venir plus de monde dans la région de Champs-sur-Marne.
 					</td></table>
 				<br>
 				<br>

@@ -6,6 +6,6 @@
 		require 'PHP/entete.php'; 
 	}
 	echo mecenat_contenu;
-	$bas = '-300%';  
+	$bas = '-320%';  
 	require 'PHP/bas_page.php'; 
 ?>
