@@ -5,7 +5,7 @@
 	}else{
 		require 'PHP/entete.php';
 	}
-	echo mecenat_contenu;
-	$bas = '-370%';  
+	echo galerie_contenu;
+	$bas = '-500%';
 	require 'PHP/bas_page.php';
 ?>

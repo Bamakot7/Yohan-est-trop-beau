@@ -504,11 +504,11 @@ define("savoir_contenu", <<<savoir
 		<h2>Notre équipe</h2>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		Pour ce projet nous avons formé un groupe de 5 étudiants en DUT informatique à l’iut de Champs-sur-Marnes où nous avons procédé à une distribution des tâches :</p><br>
-		Chef de projet: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
+		Chef de projet: Edgar AMBERG<br><a href=https://www.linkedin.com/in/edgar-amberg-b373081a6/><img src="image/edgar.png" alt=""/></a><br><br>
 		Recherche et documentation/contenu: Maisa MILADI<br><img src="image/maisa.png" alt=""/><br><br>
-		Chargé de communication interne/externe: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
-		Développeur: Yohan ASTIER<br><img src="image/yohan.png" alt=""/><br><br>
-		Développeur: Maryline FERNANDES<br><img src="image/maryline.png" alt=""/><br><br>
+		Chargé de communication interne/externe: Cléis BENOIT-GONIN<br><a href=https://www.linkedin.com/in/cléis-benoit-gonin-b270211a3><img src="image/cleis.png" alt=""/></a><br><br>
+		Développeur: Yohan ASTIER<br><a href=https://www.linkedin.com/in/yohan-astier-9689181a0/><img src="image/yohan.png" alt=""/></a><br><br>
+		Développeur: Maryline FERNANDES<br><a href=https://www.linkedin.com/in/maryline-fernandes-1000871a4/><img src="image/maryline.png" alt=""/></a><br><br>
 		</td></table>
 
 		</div>
@@ -588,6 +588,42 @@ Contact: edgar.amberg@gmail.com,marylinefernandes18@gmail.com , Yohan.Astier@gma
 
 
 mentions
+);
+
+//contenu mentions
+define("galerie_contenu", <<<galerie
+	<div class="titre"><h1 id="Haut">GALERIE PHOTO</h1><br></div>
+
+	<div class="accueil">
+	<hr>
+	<h2 style="color:#ea5c0d;">La serre</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<img src="image/serre.png" alt="" height=35% width=100%/>
+	</td></table>
+	<table border="1" cellpadding="8" cellspacing="0" width=100% right="50%"><td>
+	<img src="image/serre2.png" alt="" height=35% width=100%/>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">Ses dimensions</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<img src="image/schema.png" alt="" height=35% width=100%/>
+	</td></table>
+	<br><br><br>
+	<hr>
+	<h2 style="color:#ea5c0d;">Modélisation</h2>
+	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
+	<img src="image/facade.jpg" alt="" height=35% width=100%/>
+	</td></table>
+	<table border="1" cellpadding="8" cellspacing="0" width=100% right="50%"><td>
+	<img src="image/facade1.jpg" alt="" height=35% width=100%/>
+	</td></table>
+	<br><br><br>
+
+	</div>
+
+
+galerie
 );
 
 

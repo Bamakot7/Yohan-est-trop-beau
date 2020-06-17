@@ -29,7 +29,7 @@ define("accueil_contenu",<<<accueil
 		<h2>Welcome</h2><br>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		Welcome to the promotional website of the Tea Salon of the Champs-sur-Marne castle. <br>
-		<p> The main goal of this web site is to promote a project to create a tea room in the garden of the Château de Champs sur Marne. This project, part of a national initiative called "Heritage Cafés", aims to make visiting the park more enjoyable, especially in the summer.</p>
+		<p> The main goal of this web site is to promote a project to create a tea room in the garden of the Château de Champs sur Marne. This project, part of a national initiative called "Les cafés du patrimoine", aims to make visiting the park more enjoyable, especially in the summer.</p>
 		<a href="presentation.php?lang=en"><i>More about it</i></a>
 		</td></table>
 		<br>
@@ -58,7 +58,7 @@ define("accueil_contenu",<<<accueil
 		<h3 style="color:#ea5c0d;">We are interested in your opinion</h3>
 		<br>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		Answer <b><a href=avis.php>here</a></b> to a questionnaire about the creation of a Tea shop in the garden of the castle.
+		Answer <b><a href=avis.php?lang=en>here</a></b> to a questionnaire about the creation of a Tea shop in the garden of the castle.
 		</td></table>
 		<br><br><br>
 		<hr>
@@ -203,7 +203,8 @@ define("prepare_contenu", <<<prepare
 		<br>
 		<br>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		Discovering the castle in video......
+		Discovering the castle in video......<br>
+		Although the content of the video is in French, the images it shows are worth watching.
 		</td></table>
 		<br>
 		<br>
@@ -347,7 +348,7 @@ prepare
 				<br>
 				<h3> A place with a rich history </h3>
 				<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-				<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcJJFBqRigXl13ezxOG7fCApu8wlU9vEIaet0RZ_PtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+				<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=104NbS6uRHhdu2NmiR37556X8yDQTNMzEygmE8zfGDlA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 				</td></table>
 				<br><br>
 				<h3> A neglected place to renovate </h3>
@@ -405,7 +406,7 @@ presentation
 						</tr>
 						<tr>
 							<td bgcolor=#ea5c0d height=100>
-								<a href="#orangerie"><center>The presence of the Orangerie, a plus/center></a>
+								<a href="#orangerie"><center>The presence of the Orangerie, a plus</center></a>
 							</td>
 					</tr>
 					</table>
@@ -486,7 +487,7 @@ define("avis_contenu", <<<avis
 	<h2 id="questionnaire">TEASHOP QUESTIONNAIRE</h2>
 	<br>
 	<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdpVsKAQOuLyYohQWkk7lsskZTI7665TpNhpYo6cvtr4iTW_A/viewform?embedded=true" width=100% height=800% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPjC-UWewVHSnH_DmB9JzHnwnRixQ0ogtp0jHNP-Y5U4T4Kw/viewform?embedded=true" width=100% height=800% frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
 	</td></table>
 
 	</div>
@@ -510,11 +511,11 @@ define("savoir_contenu", <<<savoir
 		<h2>Our team</h2>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		For this project we formed a group of 5 students in computer science at the University of Champs-sur-Marnes where we proceeded to a distribution of tasks:</p><br>
-		Project manager: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
+		Project manager: Edgar AMBERG<br><a href=https://www.linkedin.com/in/edgar-amberg-b373081a6/><img src="image/edgar.png" alt=""/></a><br><br>
 		Research and documentation/content: Maisa MILADI<br><img src="image/maisa.png" alt=""/><br><br>
-		Head of internal/external communication: Cléis BENOIT-GONIN<br><img src="image/cleis.png" alt=""/><br><br>
-		Developer: Yohan ASTIER<br><img src="image/yohan.png" alt=""/><br><br>
-		Developer: Maryline FERNANDES<br><img src="image/maryline.png" alt=""/><br><br>
+		Head of internal/external communication: Cléis BENOIT-GONIN<br><a href=https://www.linkedin.com/in/cléis-benoit-gonin-b270211a3><img src="image/cleis.png" alt=""/></a><br><br>
+		Developer: Yohan ASTIER<br><a href=https://www.linkedin.com/in/yohan-astier-9689181a0/><img src="image/yohan.png" alt=""/></a><br><br>
+		Developer: Maryline FERNANDES<br><a href=https://www.linkedin.com/in/maryline-fernandes-1000871a4/><img src="image/maryline.png" alt=""/></a><br><br>
 		</td></table>
 
 		</div>
