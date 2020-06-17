@@ -20,7 +20,7 @@
 
 //Pied de page
 
-	define("mentionLegale","<a href=mentions.php?lang=en>Mentions Légales</a>");
+	define("mentionLegale","<a href=mentions.php?lang=en>Legal notices</a>");
 //contenu accueil
 define("accueil_contenu",<<<accueil
 
@@ -36,7 +36,7 @@ define("accueil_contenu",<<<accueil
 		<br>
 		<br>
 			<hr>
-			<h2>Château de Champs-sur-Marne</h2>
+			<h2>Château of Champs-sur-Marne</h2>
 			<br>
 			<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 			"The Château de Champs-sur-Marne is characteristic of the residences of leisure built in the countryside in the 18th century, giving rise to a new style of living.  It was constructed between 1703 and 1708 by the architects Pierre Bullet and Jean-Baptiste Bullet de Chamblain, on request from Louis XIV's financier, Paul Poisson de Bourvallais. The château contains sumptuous rococo and Chinoiserie decor painted in the mid-18th century by Christophe Huet."
@@ -65,7 +65,7 @@ define("accueil_contenu",<<<accueil
 		<h3 style="color:#ea5c0d;">Leave a comment</h3>
 		<br>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
-		Login to your account<b><a href=connexion_en.php>here</a></b> or sign in <b><a href=inscription_en.php>here</a></b> to leave us a message.
+		Login to your account <b><a href=connexion_en.php>here</a></b> or sign in <b><a href=inscription_en.php>here</a></b> to leave us a message.
 		</td></table>
 		</div>
 
@@ -500,14 +500,14 @@ define("savoir_contenu", <<<savoir
 	<div class='titre'><h1 id='Haut'>ABOUT US</h1><br></div>
 		<div class="accueil">
 		<hr><br>
-		<h2>Présentation</h2>
+		<h2>Presentation</h2>
 		<br><br>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		<p>In order to achieve our goals we have had several resources available, divided into categories. The first is the educational category, including all the resources made available by our IUT and the educational team, whether advice, instructions or materials. A posteriori we have a set of personal resources such as our digital devices allowing us to program the site, to take pictures or to search for information.</p>
 		</td></table>
 		<br><br><br>
 		<hr><br>
-		<h2>Notre équipe</h2>
+		<h2>Our team</h2>
 		<table border="1" cellpadding="8" cellspacing="0" width=100%><td>
 		For this project we formed a group of 5 students in computer science at the University of Champs-sur-Marnes where we proceeded to a distribution of tasks:</p><br>
 		Project manager: Edgar AMBERG<br><img src="image/edgar.png" alt=""/><br><br>
